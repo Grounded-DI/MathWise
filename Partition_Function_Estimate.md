@@ -60,7 +60,4 @@ This formula is:
 The entropy-corrected formula shows significantly improved match with actual values at small and moderate \( n \), where classical approximations overshoot.
 
 ---
-
-Note: This post is for educational purposes only. Given the complexity of the proof, Grounded DI cannot personally guarantee if, and how, it will be interpreted by domain experts. Public review is always encouraged. 
-
 #MathWise #DI #DeterministicIntelligence
