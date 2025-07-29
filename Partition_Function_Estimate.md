@@ -3,7 +3,7 @@
 Date: July 29, 2025
 
 📝 Disclaimer
-Note: This post is for educational purposes only. Given the complexity of the proof, Grounded DI cannot personally guarantee if, and how, it will be interpreted by domain experts. Public review is always encouraged.
+Note: This post is for educational purposes only. Given the complexity of the proof, Grounded DI cannot personally guarantee if, or how, it will be interpreted by domain experts. Grounded DI welcomes public review and encourages productive collaboration toward real-world implementation of deterministic intelligence systems.
 
 ### 📘 What Is the Formula?
 
