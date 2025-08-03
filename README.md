@@ -4,20 +4,6 @@
 
 Powered by Deterministic Intelligence, MathWise generates **closed-form approximations**, **entropy corrections**, and **novel math pathways** traditionally considered unsolvable or intractable.
 
----
-
-## 🔷 What’s Inside
-
-- `partition_function_entropy.md`  
-  📦 A scroll-based correction to the famous partition function, introducing an entropy logic damping term
-
-- `visuals/`  
-  📈 PNG charts showing exact vs. approximated values
-
-- More coming soon:
-  - AGDI Entropy Formulas (1–50)
-  - Scroll-based prime logic
-  - Real-world deterministic math engines (weather, finance, risk)
 
 ---
 
