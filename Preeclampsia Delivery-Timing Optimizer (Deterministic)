@@ -1,0 +1,109 @@
+# MathWise Demo — Preeclampsia Delivery-Timing Optimizer (Deterministic)
+
+**Developer:** Grounded DI LLC  
+**Mode:** DI2 · One input → one output · Compass safety on  
+**Goal:** Choose the **earliest safe delivery time** (t*) that **minimizes fetal prematurity** and **maternal endothelial volatility**, with **hard safety gates** that override optimization.
+
+---
+
+## 1) The Formula
+
+We evaluate candidate plans “deliver in h days” for h ∈ {0,…,14} and pick the argmin:
+
+\[
+J(h)= w_m \int_{0}^{h} \lambda_m(\tau)\,d\tau \;+ \; w_f \cdot P(GA_0{+}h)\; + \; w_{ff} \int_{0}^{h} \lambda_f(\tau)\,d\tau
+\]
+
+- GA0: current gestational age (weeks).  
+- λ_m: **maternal hazard** from endothelial instability (AIE, EVE) + labs.  
+- λ_f: **fetal flow hazard** from Doppler trajectory (FMFE) + surveillance.  
+- P(GA): **prematurity penalty** (steep <32 w, moderate 32–34 w, lower 34–37 w, minimal ≥37 w).  
+- Weights: w_m ≥ w_ff ≥ w_f (maternal safety first).
+
+**Safety gates (override optimization):** if any gate **now** or **predicted** before h trips (e.g., eclampsia, uncontrolled severe HTN, platelets <100k, REDV at GA threshold, non-reassuring testing), set J(h)=+∞ → **deliver per gate**.
+
+---
+
+## 2) Inputs (5 time-series biomarkers)
+
+1. **sFlt-1/PlGF ratio** (q24–72 h) → anti-angiogenic load  
+2. **Blood pressure** (24 h ABPM or frequent ward readings)  
+3. **Platelets** (×10⁹/L)  
+4. **Serum creatinine** (mg/dL)  
+5. **Umbilical artery Doppler** class over time (Normal / ↓Diastolic / AEDF / REDV)
+
+*Supplemental context:* AST/ALT, symptoms, NST/BPP.
+
+---
+
+## 3) Entropy Metrics
+
+Compute on rolling windows and **penalize rising entropy**.
+
+- **AIE — Angiogenic Imbalance Entropy**  
+- **EVE — Endothelial Variability Entropy**  
+- **FMFE — Feto-Maternal Flow Entropy**  
+- **DTDE — Delivery Timing Decision Entropy**
+
+---
+
+## 4) Safety Gates
+
+**Maternal:** eclampsia, pulmonary edema, DIC/major bleeding, uncontrolled severe HTN (≥160/110 despite Rx), platelets <100k, Cr > 1.1 mg/dL or 2× baseline, severe RUQ pain with AST/ALT rise, persistent neuro symptoms.  
+**Fetal:** persistent non-reassuring testing, UA REDV at GA thresholds, UA AEDF at threshold windows, severe growth compromise with worsening status.  
+**Gestational cut-points:** with severe features ≥34 w → deliver; expectant management <34 w only in tertiary settings.
+
+---
+
+## 5) Example Output
+
+> **Recommendation:** “Plan delivery at t0+2 days (administer steroids now). Rationale: AIE −22% and EVE −18% over 48 h, UA Doppler remains ‘decreased diastolic’ (not AEDF/REDV), labs stable. J(h) minimized at 2 d with no predicted gate breach; re-check in 24 h. If UA progresses to AEDF or platelets <100k, deliver immediately.”
+
+---
+
+## 6) Pseudocode
+
+```python
+def choose_delivery_h_star(GA0, timeseries, params):
+    if gates_tripped_now(timeseries): return 0, "Deliver now (gate)"
+    H_AIE, H_EVE, H_FMFE, H_DTDE = compute_entropies(timeseries)
+    best_h, best_J = None, float("inf")
+    for h in range(0, 15):
+        future = forecast(timeseries, h)
+        if gate_predicted(future): J = float("inf")
+        else:
+            lam_m, lam_f = hazard_m(future), hazard_f(future)
+            J = params.wm * integrate(lam_m, h) \
+              + params.wf * prematurity_penalty(GA0 + h) \
+              + params.wff * integrate(lam_f, h)
+        if J < best_J: best_h, best_J = h, J
+    return best_h, rationale_trace(best_h, best_J, H_AIE, H_EVE, H_FMFE, H_DTDE)
+
+7) Audit Notes
+	•	Raw biomarker series + entropy metrics
+	•	Hazard integrals and prematurity penalty curve
+	•	Gate evaluation with reasons
+	•	Final h* and counterfactuals (why ±1 day was worse)
+
+⸻
+
+Safety & Scope
+
+This demo is a deterministic research/IRB planning framework, not individualized medical advice. Delivery decisions must follow institutional protocols and maternal–fetal medicine judgement. Safety gates always override the optimizer.
+
+@GroundedDI #DeterministicAI #SafeAI #MathWise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signal ID: MAT-DEL-HPT-86: PE Entropy Catcher 
