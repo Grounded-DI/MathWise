@@ -1,3 +1,5 @@
+Social Media Link https://x.com/grounded_di/status/1992426253069214136?s=46
+
 # 🔢 Partition Function Estimate – MathWise Entropy Formula
 **By Grounded DI / MSW**
 Date: July 29, 2025
@@ -61,3 +63,42 @@ The entropy-corrected formula shows significantly improved match with actual val
 
 ---
 #MathWise #DI #DeterministicIntelligence
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<-DI-hexagon-tracer->
+#MathWise #GroundedDI
+
+
