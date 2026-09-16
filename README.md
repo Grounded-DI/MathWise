@@ -90,7 +90,7 @@ Recommended order:
 
 The archive can support a scoped proof of concept around canonical serialization, replay receipts, hash-based artifact identity, or human-reviewed formula workflows. A technical evaluator can use the public records to define the required inputs, gates, outputs, and evidence package before requesting private implementation access.
 
-Potential integration scenarios are limited to evaluation until executable components and validation plans are supplied. The preeclampsia material requires institutional review and qualified clinical oversight; it is not a deployable medical product. Commercial licensing and integration inquiries: **[CONTACT PLACEHOLDER]**.
+Potential integration scenarios are limited to evaluation until executable components and validation plans are supplied. The preeclampsia material requires institutional review and qualified clinical oversight; it is not a deployable medical product. Commercial licensing and integration inquiries: [Grounded DI GitHub organization](https://github.com/Grounded-DI).
 
 ## Authorship and Provenance
 
