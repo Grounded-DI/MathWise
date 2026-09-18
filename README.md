@@ -6,11 +6,11 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 ## Overview
 
-This repository preserves ten public artifacts spanning partition-function estimation, prime-number visualization, an entropy-linked toroidal-fluid specification, a replayable polygon-cascade record, and a preeclampsia delivery-timing planning framework.
+This repository preserves a public collection of mathematical proposals, formula and specification records, visualizations, replay receipts, and a safety-bounded research planning framework. The September 17, 2026 release adds the RH-001H XT-004G1 certificate package, which records two negative interval enclosures for `V_32(1/5)`, source bindings, an internal SHA-256 manifest, and lightweight verification scripts.
 
 The archive separates three different kinds of material: mathematical or scientific proposals, artifact-recorded execution results, and exploratory or safety-bounded demonstrations. “Deterministic” is used here in the narrow sense of fixed or reproducible processing under stated inputs and rules; it does not mean that a formula is proven, that a model is universally correct, or that a clinical decision is automated.
 
-No executable solver, runtime package, dependency manifest, test suite, or CI workflow is included in the current repository. The files are therefore suitable for review and controlled evaluation, not direct deployment.
+No production executable solver or runtime package, dependency manifest, test suite, or CI workflow is included in the current repository. The new certificate package includes Python scripts that check the stored interval conditions and package manifest, plus a bundled predecessor archive; those are review tools and evidence, not a production solver or full rerunnable derivation. The files are therefore suitable for review and controlled evaluation, not direct deployment.
 
 ## Why It Matters
 
@@ -22,6 +22,7 @@ The other records show how the same rule-oriented approach is expressed across n
 
 | Artifact | What the repository records | Boundary |
 |---|---|---|
+| `RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip` and its SHA-256 sidecar | A September 17, 2026 computer-assisted checkpoint reporting two strictly negative final enclosures for `V_32(1/5)`, source bindings, an internal manifest, and verification scripts. | The included checkers verify the stored interval conditions and listed file hashes; they do not rerun the integrals or independently validate the analytic error bounds. |
 | `run_receipt_1_of_5.json`, `run_receipt_5_of_5.json`, and `Five_Independent_Runs_Polygon_Cascade_PASS_re_run_receipts.jpeg` | Five-run polygon-cascade replay record; the two included JSON receipts carry matching hashes and `verification_result: PASS`. The companion capture reports zero coordinate mismatches and maximum coordinate error `0.0`. | The repository contains receipts 1 and 5 plus the capture, not an executable harness or all five JSON receipts. |
 | `Partition_Function_Estimate.md` and `Partition_function_plot.pdf` | A proposed finite correction to the Hardy–Ramanujan partition estimate and a plotted comparison for `1 ≤ n ≤ 20`. | This is a proposal and visualization. No proof, error analysis, or claim of improved accuracy is established here. |
 | `Prime_Echo_Lattice_Demo.md` | Ulam-spiral visualization concepts using diagonal band compression (`Dθ`) and a local prime-phase entropy filter (`E_local`). | The “Prime Echo Lattice” is presented as an exploratory conjecture; novelty and mathematical validity are not independently established. |
@@ -68,9 +69,11 @@ Where a record is only a proposal or sample, the chain stops at the specificatio
 | Polygon-cascade replay record | `PASS`; `total_runs: 5` | `run_receipt_1_of_5.json`, `run_receipt_5_of_5.json`, and the companion capture |
 | Receipt hash comparison | Matching canonical-payload, mathematical-data, SVG, and ZIP hashes in the two included receipts | The two JSON files listed above |
 | Coordinate comparison | `0` mismatches; maximum error `0.0` | Companion JPEG record |
-| Repository review during this update | Ten tracked artifacts inspected; no executable runtime, dependency manifest, tests, or CI found | Current `main` tree and Git history |
+| Repository review during this update | Certificate package checkers present; no production runtime, dependency manifest, test suite, or CI found | Current `main` tree and Git history |
 
 The replay and coordinate results above are artifact-recorded results. No original execution harness was available to rerun them from this repository during this review.
+
+The certificate package adds separate checks: `verify_certificate.py` confirms that the two stored final intervals are ordered and strictly negative, while `verify_manifest.py` recomputes the listed SHA-256 hashes. Neither command reruns the `V_32(1/5)` integrals or independently validates the analytic remainder bounds.
 
 ## How to Review
 
@@ -90,7 +93,7 @@ Recommended order:
 
 The archive can support a scoped proof of concept around canonical serialization, replay receipts, hash-based artifact identity, or human-reviewed formula workflows. A technical evaluator can use the public records to define the required inputs, gates, outputs, and evidence package before requesting private implementation access.
 
-Potential integration scenarios are limited to evaluation until executable components and validation plans are supplied. The preeclampsia material requires institutional review and qualified clinical oversight; it is not a deployable medical product. Commercial licensing and integration inquiries: [Grounded DI GitHub organization](https://github.com/Grounded-DI).
+Potential integration scenarios are limited to evaluation until production executable components and validation plans are supplied. The preeclampsia material requires institutional review and qualified clinical oversight; it is not a deployable medical product. Commercial licensing and integration inquiries: [Grounded DI GitHub organization](https://github.com/Grounded-DI).
 
 ## Authorship and Provenance
 
@@ -100,9 +103,9 @@ No open-source license is present in the repository. Public availability should 
 
 ## Scope and Status
 
-**Status:** Active public mathematical and demonstration archive. It contains formula proposals, visualizations, a receipt-backed replay record, and a safety-bounded research planning document. It is not a certified proof, production solver, clinical decision system, or independently validated benchmark package.
+**Status:** Active public mathematical and demonstration archive. It contains formula proposals, visualizations, a receipt-backed replay record, a safety-bounded research planning document, and the RH-001H XT-004G1 computer-assisted negative-sign checkpoint under its stated arithmetic trust model. It is not a proof of the Riemann Hypothesis, a production solver, a clinical decision system, or an independently validated benchmark package.
 
-The repository’s strongest demonstrated result is the recorded polygon-cascade replay identity and its receipt structure. The mathematical proposals and cross-domain specifications remain open to independent review.
+The repository’s strongest demonstrated records are the receipt-backed polygon-cascade replay identity and the `V_32(1/5)` negative-sign checkpoint under its stated arithmetic trust model. The mathematical proposals and cross-domain specifications remain open to independent review.
 
 ## RH-001H XT-004G1 — V32(1/5) negative checkpoint
 
