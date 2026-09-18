@@ -104,6 +104,63 @@ No open-source license is present in the repository. Public availability should 
 
 The repository’s strongest demonstrated result is the recorded polygon-cascade replay identity and its receipt structure. The mathematical proposals and cross-domain specifications remain open to independent review.
 
+## RH-001H XT-004G1 — V32(1/5) negative checkpoint
+
+**Date:** 2026-09-17  
+**Classification:** V32_NEGATIVE_CERTIFIED
+
+The included certificate records the following computer-assisted statement under the explicit arithmetic trust model in PROOF_AND_AUDIT.md:
+
+V_32(1/5) = 2 ∫ from 1/5 to infinity of sinh(7r/8) Phi_r(32) dr < 0.
+
+Two routes give strictly negative final enclosures:
+
+| Route | Final enclosure |
+|---|---|
+| Route A — reconstructed r-domain integral | [-3.965087673290262031205937731170e-19, -3.410440175927191319509719654804e-19] |
+| Route B — replayed z-domain representation with corrected directed quadrature audit | [-3.900701435179151986360311138146e-19, -3.474740016377126956333050414960e-19] |
+
+Both upper endpoints are strictly negative.
+
+### Recorded checks
+
+The included verifier reports:
+
+- Route A: PASS
+- Route B: PASS
+- Internal SHA-256 inventory: PASS
+
+Route A is classified as INDEPENDENT_IMPLEMENTATION / SHARED_BACKEND. Route B is classified as FRESH_IMPLEMENTATION_REPLAY / SHARED_BACKEND. The combined classification is PARTIALLY_SHARED_ANALYTIC_LEDGER: both routes use the same mpmath.iv interval backend and share the contour-shift/Gaussian-tail framework. The package does not claim an Arb-class or formally verified independent backend.
+
+### What this closes
+
+This result eliminates the specific first-cumulative sufficient criterion that requires the relevant quantity to remain nonnegative everywhere.
+
+It does not prove or disprove Fourier positivity, all cumulative or iterated-tail criteria, a fixed zero-free strip, inward strip movement, or the Riemann Hypothesis. The next branch identified by the certificate is the iterated-tail / V2 escalation. Independent-backend replay remains welcome.
+
+### Source binding
+
+| Record | SHA-256 |
+|---|---|
+| Canonical ancestor RH-001H-CP-X-002 | 9ff24fe71440ee56eaa2a50af4456627bbeb1052ed6b2308df0ed7d187bc3a79 |
+| Parent RH-001H-XT-004F | 429fca0f186c85f4d5aa9c40ccc41183c712a607811c6a23002f66d8956a9e8b |
+| Working predecessor RH-001H-XT-004G | 5b4f71b1c0bcfd975675577d61510374487839c1f794226818186426e554f5ac |
+
+### Published artifacts
+
+- [RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip](RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip)
+- [SHA-256 sidecar](RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip.sha256.txt)
+
+ZIP SHA-256: 50cbcb1c366ca011730db1e57bb8f3182e199a2c81969e3d61db6eef74185877
+
+To inspect the package after downloading:
+
+    unzip RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip
+    python RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17/code/verify_certificate.py RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17
+    python RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17/code/verify_manifest.py RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17
+
+This is a method-obstruction checkpoint: one first-cumulative branch is closed within its stated trust model, while the broader RH program remains open.
+
 ## Discovery
 
 #MathWise #DeterministicAI #MathematicalModeling #Replayability #AuditTrail #Provenance #ResponsibleAI
