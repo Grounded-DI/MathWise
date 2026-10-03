@@ -1,0 +1,50 @@
+{
+  "rechecked_at_utc": "2026-10-03T15:07:11.162815+00:00",
+  "records": [
+    {
+      "key": "B",
+      "status": "fresh primary PDF retrieved",
+      "pages": 5,
+      "bytes": 222532,
+      "sha256": "0133eb2e4d3a2cf868ab47856598a16906e2ddf0980f1a413d91e04ee536261f",
+      "matches_earlier_source": true,
+      "canonical_url": "https://ai.meta.com/research/publications/on-solvable-evolution-algebras-and-a-conjecture-by-garcia-martinez-and-perez-rodriguez/"
+    },
+    {
+      "key": "GP-published",
+      "status": "fresh primary PDF retrieved",
+      "pages": 8,
+      "bytes": 318618,
+      "sha256": "3dc44ac2d35a34084074b65af73297c1205fdd4211670caf37935ba458b40d6d",
+      "matches_earlier_source": true,
+      "canonical_url": "https://doi.org/10.1007/s00013-026-02251-0"
+    },
+    {
+      "key": "HW",
+      "status": "fresh primary PDF retrieved",
+      "pages": 8,
+      "bytes": 362920,
+      "sha256": "fef120d4c552a144a37f1cc89927f36e2364e3e290f64488190cbebcc8b1c278",
+      "matches_earlier_source": true,
+      "canonical_url": "https://arxiv.org/pdf/2609.25023"
+    },
+    {
+      "key": "LT",
+      "status": "fresh primary PDF retrieved",
+      "pages": 8,
+      "bytes": 139078,
+      "sha256": "6cd646e54eb17c53847acbc0f5a2edd806b754ed5a9608ec73e0d596c473ed59",
+      "matches_earlier_source": true,
+      "canonical_url": "https://arxiv.org/abs/1403.4623"
+    },
+    {
+      "key": "V",
+      "status": "fresh primary PDF retrieved",
+      "pages": 8,
+      "bytes": 118020,
+      "sha256": "725d09723d8f2f328e26f0ec8ccc7c8734c5d27f5e0185c165e1f3c36ed263b5",
+      "matches_earlier_source": true,
+      "canonical_url": "https://math.stanford.edu/~vakil/0506-216/216class31.pdf"
+    }
+  ]
+}

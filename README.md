@@ -4,6 +4,12 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 **Published by:** Grounded DI LLC · **Creator / operator:** Mark S. Weinstein · **Public repository established:** July 29, 2025
 
+## Latest audit — Barei evolution algebras
+
+**Published 3 October 2026:** [Barei Evolution Algebra Audit Confirmation](audits/2026-10-03-barei-evolution-algebras/README.md). The principal mathematics survived a source-informed, AI-assisted bounded audit commissioned by Mark S. Weinstein under the stated hypotheses. The note explains shorter proof routes, the isomorphism with Hu–Wen’s example, and an independently constructed four-dimensional supporting witness whose historical novelty remains unestablished.
+
+The [public companion PDF](audits/2026-10-03-barei-evolution-algebras/artifacts/Barei_Public_Audit_Companion.pdf), [complete review package](audits/2026-10-03-barei-evolution-algebras/artifacts/Barei_Public_Audit_Review_Package.zip), [claim-to-evidence table](audits/2026-10-03-barei-evolution-algebras/CLAIM_EVIDENCE.csv), [unchanged checker](audits/2026-10-03-barei-evolution-algebras/verify_audit.py), and [actual results](audits/2026-10-03-barei-evolution-algebras/evidence/results_rechecked.json) are available for inspection. All 11 exact check groups passed; the general proofs were reviewed separately. Correctness, reproducibility, and file integrity remain separate conclusions. Novelty and author-reported AI attribution have their own disclosed limits; no endorsement by Meta or the paper’s authors is implied.
+
 ## Overview
 
 This repository preserves a public collection of mathematical proposals, formula and specification records, visualizations, replay receipts, and a safety-bounded research planning framework. The September 17, 2026 release adds the RH-001H XT-004G1 certificate package, which records two negative interval enclosures for `V_32(1/5)`, source bindings, an internal SHA-256 manifest, and lightweight verification scripts.
@@ -22,6 +28,7 @@ The other records show how the same rule-oriented approach is expressed across n
 
 | Artifact | What the repository records | Boundary |
 |---|---|---|
+| [Barei evolution-algebra audit](audits/2026-10-03-barei-evolution-algebras/README.md) | A bounded mathematical confirmation with a counterexample reconstruction, proof simplifications, a four-dimensional strictness witness, exact checker, actual outputs, and source locations. | The 11 passing finite check groups do not formally prove the general theorems; historical novelty and AI attribution remain qualified. |
 | `RH_001H_XT_004G1_V32_Negative_Certified_2026-09-17.zip` and its SHA-256 sidecar | A September 17, 2026 computer-assisted checkpoint reporting two strictly negative final enclosures for `V_32(1/5)`, source bindings, an internal manifest, and verification scripts. | The included checkers verify the stored interval conditions and listed file hashes; they do not rerun the integrals or independently validate the analytic error bounds. |
 | `run_receipt_1_of_5.json`, `run_receipt_5_of_5.json`, and `Five_Independent_Runs_Polygon_Cascade_PASS_re_run_receipts.jpeg` | Five-run polygon-cascade replay record; the two included JSON receipts carry matching hashes and `verification_result: PASS`. The companion capture reports zero coordinate mismatches and maximum coordinate error `0.0`. | The repository contains receipts 1 and 5 plus the capture, not an executable harness or all five JSON receipts. |
 | `Partition_Function_Estimate.md` and `Partition_function_plot.pdf` | A proposed finite correction to the Hardy–Ramanujan partition estimate and a plotted comparison for `1 ≤ n ≤ 20`. | This is a proposal and visualization. No proof, error analysis, or claim of improved accuracy is established here. |
@@ -81,6 +88,8 @@ The certificate package adds separate checks: `verify_certificate.py` confirms t
 git clone https://github.com/Grounded-DI/MathWise.git
 cd MathWise
 ```
+
+For the October 3 algebra audit, start with the [public confirmation and evidence index](audits/2026-10-03-barei-evolution-algebras/README.md). Its standalone standard-library checker reruns the eleven disclosed finite check groups.
 
 Recommended order:
 

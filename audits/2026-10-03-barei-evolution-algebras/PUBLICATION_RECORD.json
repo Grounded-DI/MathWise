@@ -1,0 +1,126 @@
+{
+  "schema": "mathwise-audit-publication-v1",
+  "publication_date": "2026-10-03",
+  "repository": "https://github.com/Grounded-DI/MathWise",
+  "repository_path": "audits/2026-10-03-barei-evolution-algebras",
+  "authorized_by": "Mark S. Weinstein",
+  "workflow": "Publication of the previously prepared source-informed, AI-assisted audit; same assistant workflow.",
+  "authors_contacted": false,
+  "endorsement_claimed": false,
+  "changes_to_public_note": [
+    "Removed Draft from title",
+    "Updated preparation-status sentence to publication at the commissioner’s request",
+    "Replaced evidence placeholders with repository links and retained primary-source URLs",
+    "Added rerun instructions and separately recorded the prepublication code execution",
+    "Disclosed immutable draft-stage records and the companion PDF byte variants"
+  ],
+  "inputs": [
+    {
+      "uploaded_filename": "Barei_Public_Audit_Review_Package(1).zip",
+      "published_path": "artifacts/Barei_Public_Audit_Review_Package.zip",
+      "bytes": 443809,
+      "sha256": "506fe729ea4cf6e0747fb3a2ec80cb068aa46314c7dfb6758845e08c585d842b",
+      "byte_preserved": true
+    },
+    {
+      "uploaded_filename": "Barei_Public_Audit_Companion(1).pdf",
+      "published_path": "artifacts/Barei_Public_Audit_Companion.pdf",
+      "bytes": 112744,
+      "sha256": "545c45ca955a9819aff3c7b9a6999e2d7610e9bd4455918765aec1344908d67a",
+      "byte_preserved": true
+    },
+    {
+      "uploaded_filename": "Barei_Public_Audit_Review_Package.zip.sha256(1).txt",
+      "published_path": "artifacts/Barei_Public_Audit_Review_Package.zip.sha256.txt",
+      "bytes": 104,
+      "sha256": "ce74e15ec3d2af63e90572fbf32686d8a5d818c65ddfa94457136adabe88f1df",
+      "byte_preserved": true
+    }
+  ],
+  "review_package_integrity": {
+    "zip_crc_check": "PASS",
+    "manifest_files_checked": 16,
+    "manifest_hash_check": "PASS",
+    "supplied_zip_sidecar_check": "PASS"
+  },
+  "companion_pdf_variants": {
+    "attached_sha256": "545c45ca955a9819aff3c7b9a6999e2d7610e9bd4455918765aec1344908d67a",
+    "inside_zip_sha256": "15f24d75e800a46189d0b4df841bc0d7993926175dcad57b126ff5d783cf4641",
+    "pages_compared": 4,
+    "extracted_page_text_equal": true,
+    "decoded_page_content_streams_equal": true,
+    "scope": "Byte variants are disclosed; this comparison does not establish mathematical correctness."
+  },
+  "browsable_evidence": [
+    {
+      "path": "CLAIM_EVIDENCE.csv",
+      "sha256": "a509d76723f1fb0c957dc4b75c90d598118a26cb218a281a5fb70b3a3c0b1af3",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "verify_audit.py",
+      "sha256": "7249514cc8fba3030d9fab1613874dd19e98a1a934088055fc0761889b136444",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/RECHECK_RECORD.json",
+      "sha256": "2f62bda95985e226353c531f0495c56f4f717534779af9d0f0cc93b1dd18e7bf",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/results_original.json",
+      "sha256": "d1d97be21200e9757dcf79175b163a9ec7dc8f6cb8214c709d6bd3aac6b9ebdc",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/results_rechecked.json",
+      "sha256": "d1d97be21200e9757dcf79175b163a9ec7dc8f6cb8214c709d6bd3aac6b9ebdc",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/run_log_rechecked.txt",
+      "sha256": "fd2763748a2d1bbdf50daf76d3288b77c1dbbdcb3d16813178ea27e9d194ef00",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/source_manifest_original.json",
+      "sha256": "e5c3068b661969442a76395cf1418a9d035c8fc03ef8f1a53f3680607be12a02",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "evidence/sources_rechecked.json",
+      "sha256": "d0f862f58cda10175531211546596d5624f74cb26490a0a82e0b06c45a709eb9",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "input_record/Barei_Audit_Checks.zip",
+      "sha256": "d9c204c6895c29f959718e2c65f30dda4eeb3740374a35cc9f55e14ce1a59961",
+      "byte_identical_to_packaged_file": true
+    },
+    {
+      "path": "input_record/Barei_Evolution_Algebra_Audit.pdf",
+      "sha256": "5c636640a4efd5eccf3129afe491ed9774da6a8876faa8b32e60505a55f86ab0",
+      "byte_identical_to_packaged_file": true
+    }
+  ],
+  "prepublication_code_execution": {
+    "exit_code": 0,
+    "status": "PASS",
+    "check_groups": 11,
+    "python_version": "3.12.14",
+    "results_path": "evidence/results_publication_run.json",
+    "results_file_modified_at_utc": "2026-10-03T16:22:00.469830+00:00",
+    "eleven_check_records_equal_to_previous_rerun": true,
+    "checker_sha256": "7249514cc8fba3030d9fab1613874dd19e98a1a934088055fc0761889b136444",
+    "scope": "Exact finite computations and forced branch checks; no new universal-proof or historical-provenance verification."
+  },
+  "limits": [
+    "Source-informed rather than blind replication",
+    "No independent human expert review",
+    "No proof-assistant formalization",
+    "No inference of historical novelty for the audit witness",
+    "AI attribution remains author-reported",
+    "No causal Grounded DI or Protocol A benefit claimed",
+    "SHA-256 records identify bytes and do not prove mathematics or authorship"
+  ]
+}

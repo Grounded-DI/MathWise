@@ -1,0 +1,118 @@
+{
+  "retrieved_at_utc": "2026-10-03T04:13:15.660362+00:00",
+  "sources": [
+    {
+      "key": "B",
+      "title": "On Solvable Evolution Algebras and a Conjecture by García-Martínez and Pérez-Rodríguez",
+      "authors": "Andres Barei with Muse Spark",
+      "url": "https://ai.meta.com/research/publications/on-solvable-evolution-algebras-and-a-conjecture-by-garcia-martinez-and-perez-rodriguez/",
+      "date_evidence": "Meta public release 2026-10-02; manuscript undated",
+      "note": "Full 5-page manuscript linked by official publication page, distinct from the user's 6-page webpage printout.",
+      "local_source_filename": "meta_barei.pdf",
+      "pages": 5,
+      "bytes": 222532,
+      "sha256": "0133eb2e4d3a2cf868ab47856598a16906e2ddf0980f1a413d91e04ee536261f",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "GP-published",
+      "title": "A note on complete evolution algebras",
+      "authors": "Xabier García-Martínez and Andrés Pérez-Rodríguez",
+      "url": "https://doi.org/10.1007/s00013-026-02251-0",
+      "date_evidence": "Published online 2026-04-22",
+      "note": "Arch. Math. 126, 597–604; conjecture 3.6 at printed p. 602 / PDF p. 6.",
+      "local_source_filename": "original_gp_published.pdf",
+      "pages": 8,
+      "bytes": 318618,
+      "sha256": "3dc44ac2d35a34084074b65af73297c1205fdd4211670caf37935ba458b40d6d",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "GP-preprint",
+      "title": "A note on complete evolution algebras",
+      "authors": "Xabier García-Martínez and Andrés Pérez-Rodríguez",
+      "url": "https://arxiv.org/abs/2512.12418",
+      "date_evidence": "Preprint 2025-12-13",
+      "note": "Full preprint retrieved; published version used for locations.",
+      "local_source_filename": "original_gp_preprint.pdf",
+      "pages": 7,
+      "bytes": 369750,
+      "sha256": "aafc2a93bd1cbffdff81ce71a75bb7126dec6f95693cfbcafb77974dc5acdce6",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "HW",
+      "title": "Idempotent-free non-solvable evolution algebras over C",
+      "authors": "Xing-Yu Hu and Ran Wen",
+      "url": "https://arxiv.org/pdf/2609.25023",
+      "date_evidence": "PDF banner reports 2026-08-12; Meta reports submission on that date",
+      "note": "Full 8-page PDF retrieved. Abstract/submission-history page unavailable; reported date is not independently certified as first public posting.",
+      "local_source_filename": "concurrent_hu_wen.pdf",
+      "pages": 8,
+      "bytes": 362920,
+      "sha256": "fef120d4c552a144a37f1cc89927f36e2364e3e290f64488190cbebcc8b1c278",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "LT",
+      "title": "Idempotents in nonassociative algebras and eigenvectors of quadratic operators",
+      "authors": "Yuri Lyubich and Alexander Tsukerman",
+      "url": "https://arxiv.org/abs/1403.4623",
+      "date_evidence": "Submitted 2014-03-18",
+      "note": "Theorem 2.1 p. 2; proof p. 5; Lemma 3.2 pp. 4–5. The algebraically closed-field theorem has no characteristic exclusion.",
+      "local_source_filename": "lyubich_tsukerman.pdf",
+      "pages": 8,
+      "bytes": 139078,
+      "sha256": "6cd646e54eb17c53847acbc0f5a2edd806b754ed5a9608ec73e0d596c473ed59",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "KT",
+      "title": "Variety of idempotents in nonassociative algebras",
+      "authors": "Yakov Krasnov and Vladimir G. Tkachev",
+      "url": "https://arxiv.org/abs/1801.00617",
+      "date_evidence": "2018 preprint",
+      "note": "Section 2, pp. 4–5 supplies additional context for the classical quadratic-map / Bézout argument.",
+      "local_source_filename": "krasnov_tkachev.pdf",
+      "pages": 27,
+      "bytes": 324236,
+      "sha256": "0f3fff52c5333dfc45d651467fbd89e9e87dc2c05405d495af1d94212d0a3085",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "V",
+      "title": "Foundations of Algebraic Geometry, class 31",
+      "authors": "Ravi Vakil",
+      "url": "https://math.stanford.edu/~vakil/0506-216/216class31.pdf",
+      "date_evidence": "2005–2006 course notes",
+      "note": "Primary exposition of proper-intersection / complete-intersection Bézout degree, pp. 4 and 6.",
+      "local_source_filename": "vakil_class31.pdf",
+      "pages": 8,
+      "bytes": 118020,
+      "sha256": "725d09723d8f2f328e26f0ec8ccc7c8734c5d27f5e0185c165e1f3c36ed263b5",
+      "retrieval_status": "complete"
+    },
+    {
+      "key": "Meta-blog",
+      "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+      "date_evidence": "2026-10-02",
+      "note": "Public narrative of model contribution, the sixth-paper section. Source assertions, not interaction logs."
+    },
+    {
+      "key": "Harris",
+      "title": "Algebraic Geometry: A First Course",
+      "authors": "Joe Harris",
+      "date_evidence": "1992",
+      "retrieval_status": "exact fixed-point locator not verified",
+      "note": "Barei cites the book generally. Needed existence result independently supported via LT and reconstructed algebraic proof."
+    },
+    {
+      "key": "Classification-2017",
+      "title": "Classification of three-dimensional evolution algebras",
+      "authors": "Y. Cabrera Casado, M. Siles Molina, M. V. Velasco",
+      "date_evidence": "2017",
+      "retrieval_status": "primary full text unavailable in this run",
+      "note": "Publisher and institutional fetches failed (403/502). Hu–Wen Remark 2.5 older-classification identification remains a source assertion; signed-permutation comparison between Barei and Hu–Wen is independently checked."
+    }
+  ]
+}

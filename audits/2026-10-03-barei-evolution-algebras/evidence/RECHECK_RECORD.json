@@ -1,0 +1,99 @@
+{
+  "status": "SUPPORTED WITH STATED LIMITS",
+  "recorded_at_utc": "2026-10-03T15:09:45.642845+00:00",
+  "commissioner": "Mark S. Weinstein",
+  "process": "Source-informed AI-assisted mathematical review; same assistant workflow revisiting its earlier audit, not a second human expert or independent blind replication",
+  "inputs": [
+    {
+      "filename": "Barei_Evolution_Algebra_Audit.pdf",
+      "current_version_number": 0,
+      "bytes": 205265,
+      "sha256": "5c636640a4efd5eccf3129afe491ed9774da6a8876faa8b32e60505a55f86ab0"
+    },
+    {
+      "filename": "Barei_Audit_Checks.zip",
+      "current_version_number": 0,
+      "bytes": 172068,
+      "sha256": "d9c204c6895c29f959718e2c65f30dda4eeb3740374a35cc9f55e14ce1a59961"
+    }
+  ],
+  "original_record_edited": false,
+  "original_checker_edited": false,
+  "original_checker_sha256": "7249514cc8fba3030d9fab1613874dd19e98a1a934088055fc0761889b136444",
+  "archive_integrity": "All seven SHA256SUMS entries verified; ZIP CRC check passed",
+  "code_rerun": {
+    "exit_code": 0,
+    "check_groups": 11,
+    "passed": 11,
+    "original_and_recheck_evidence_equal": true,
+    "python_version": "3.12.14"
+  },
+  "pdf_variants": {
+    "standalone_bytes": 205265,
+    "archived_bytes": 180292,
+    "standalone_sha256": "5c636640a4efd5eccf3129afe491ed9774da6a8876faa8b32e60505a55f86ab0",
+    "archived_sha256": "9d746a0594031b57adf90f8e7dae151659b700e5c3f318bb6ea21e0639f72e2b",
+    "extracted_text_equal": true,
+    "decoded_page_content_streams_equal": true,
+    "note": "File variants are recorded separately. No inference about authenticity or mathematical correctness is made from a matching hash."
+  },
+  "proof_review": [
+    {
+      "id": "P01",
+      "claim": "Counterexample has only the zero complex idempotent",
+      "method": "Re-derived x(1+2x)=0 and (1-2s)y=-s^2 with s=2x^2; exhaustive two branches",
+      "result": "SUPPORTED"
+    },
+    {
+      "id": "P02",
+      "claim": "Derived chain descends, stabilizes, and its stable term is greatest perfect subspace",
+      "method": "Induction on multiplication closure and descent; finite dimension; monotonicity V^2 subset W^2",
+      "result": "SUPPORTED"
+    },
+    {
+      "id": "P03",
+      "claim": "Theorem 3.3 geometric dependency and scaling are valid under stated field hypotheses",
+      "method": "Re-read Lyubich–Tsukerman Theorem 2.1 p.2, Lemma 3.2 pp.4–5, proof p.5. Reconstructed projective quadrics, simple trivial point, proper finite intersection and degree 2^n; scale x/t",
+      "result": "SUPPORTED; classical Bezout and local-ring/Jacobian facts remain mathematical dependencies, not executable proofs"
+    },
+    {
+      "id": "P04",
+      "claim": "Corollary 3.4 and Remark 3.6 comparison follow",
+      "method": "Apply existence lemma directly to nonzero D; independent natural-basis squares imply N(D)={0}",
+      "result": "SUPPORTED"
+    },
+    {
+      "id": "P05",
+      "claim": "Barei E_0 and Hu–Wen E_2 are isomorphic",
+      "method": "Re-derived signed permutation images and verified three squares; bilinearity plus six zero mixed products gives complete multiplication verification",
+      "result": "SUPPORTED"
+    },
+    {
+      "id": "P06",
+      "claim": "Four-dimensional witness strictly separates the sufficient hypotheses over C",
+      "method": "Re-derived induced product and exhaustive square-zero branch; simultaneous congruence would force commuting B0^-1 Bj; exact commutator is nonzero",
+      "result": "SUPPORTED; no global novelty claim"
+    }
+  ],
+  "material_corrections_found": [],
+  "publication_precision_changes": [
+    "Use exact Hu–Wen Theorem 2.1 / Corollary 2.2 locator p.3 rather than the broader pp.2–3 citation.",
+    "Separate machine-checked C06 matrix obstruction from the universally quantified square-zero and no-natural-basis arguments.",
+    "Distinguish this rerun and review from the earlier construction; no second independent reviewer is implied."
+  ],
+  "carried_forward_limits": [
+    "No interaction logs for Muse Spark contribution",
+    "No global novelty or first-discovery determination",
+    "Harris fixed-point page locator unresolved; needed existence dependency independently supported through LT",
+    "2017 classification identification not directly verified",
+    "Hu–Wen submission-history chronology unresolved"
+  ],
+  "publication_status": "Review-ready drafts only; no publication or contact authorized or performed",
+  "validation": {
+    "companion_pdf_pages": 4,
+    "pdf_visual_review": "All four final pages inspected; no clipping or spillover",
+    "claim_evidence_rows": 14,
+    "artifact_links": "All relative artifact links resolve within package",
+    "social_draft_words": 119
+  }
+}

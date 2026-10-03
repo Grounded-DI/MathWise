@@ -1,0 +1,335 @@
+{
+  "arithmetic": "fractions.Fraction and finite-field integers",
+  "check_groups": 11,
+  "checks": [
+    {
+      "description": "Published multiplication identities reconstructed from the matrix",
+      "evidence": {
+        "r1_r2": [
+          "0",
+          "2",
+          "-2"
+        ],
+        "r1_squared": [
+          "-8",
+          "-4",
+          "12"
+        ],
+        "r2_squared": [
+          "0",
+          "0",
+          "0"
+        ]
+      },
+      "id": "C01",
+      "status": "PASS"
+    },
+    {
+      "description": "Derived chain has a nonzero stable term",
+      "evidence": {
+        "dimensions": [
+          3,
+          2,
+          2
+        ],
+        "stable_basis": [
+          [
+            "1",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "1",
+            "-1"
+          ]
+        ]
+      },
+      "id": "C02",
+      "status": "PASS"
+    },
+    {
+      "description": "All idempotent branches exhausted analytically",
+      "evidence": {
+        "branches": [
+          {
+            "outcome": "zero solution",
+            "solution": [
+              "0",
+              "0",
+              "0"
+            ],
+            "x": "0"
+          },
+          {
+            "equation": "0 = -1/4",
+            "outcome": "inconsistent",
+            "x": "-1/2"
+          }
+        ],
+        "scope": "complex solutions; no numeric approximation or bounded search",
+        "solution": [
+          0,
+          0,
+          0
+        ]
+      },
+      "id": "C03",
+      "status": "PASS"
+    },
+    {
+      "description": "Barei example is isomorphic to Hu-Wen E_2",
+      "evidence": {
+        "basis_product_equalities": 9,
+        "change_of_basis": [
+          [
+            0,
+            0,
+            -1
+          ],
+          [
+            -1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "images": [
+          "e1 -> -h2",
+          "e2 -> h3",
+          "e3 -> -h1"
+        ]
+      },
+      "id": "C04",
+      "status": "PASS"
+    },
+    {
+      "description": "Strictness witness: E squared is the indicated three-dimensional algebra",
+      "evidence": {
+        "basis_product_equalities": 9,
+        "dimensions": [
+          4,
+          3,
+          3
+        ],
+        "embedding": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        "square_map": "(x^2+y^2, y^2+z^2, 2xz)",
+        "structure_matrix": [
+          [
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "id": "C05",
+      "status": "PASS"
+    },
+    {
+      "description": "Strictness witness: stable term is not an evolution algebra",
+      "evidence": {
+        "nonzero_commutator": [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        "nonzero_idempotent": [
+          "1",
+          "0",
+          "0",
+          "1"
+        ],
+        "scope": "N(D)=0 over C proved in report; commutator obstruction exact",
+        "square_zero_proof": "2xz=0 -> x=0 or z=0 -> remaining squares zero -> x=y=z=0"
+      },
+      "id": "C06",
+      "status": "PASS"
+    },
+    {
+      "description": "Scope test: F_3 has a perfect, square-zero-free, idempotent-free example",
+      "evidence": {
+        "classification": "outside theorem hypothesis; no contradiction over algebraic closure",
+        "field": "F_3",
+        "idempotents": [
+          [
+            0,
+            0
+          ]
+        ],
+        "points_enumerated": 9,
+        "square_zero_elements": [
+          [
+            0,
+            0
+          ]
+        ],
+        "structure_matrix": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "id": "C07",
+      "status": "PASS"
+    },
+    {
+      "description": "Scope test: Barei's particular example is solvable in characteristic two",
+      "evidence": {
+        "dimensions": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "field": "F_2"
+      },
+      "id": "C08",
+      "status": "PASS"
+    },
+    {
+      "description": "Scope test: N(D)=0 is sufficient, not necessary for the equivalence",
+      "evidence": {
+        "nonzero_idempotent": [
+          1,
+          0,
+          1
+        ],
+        "nonzero_square_zero_element": [
+          0,
+          1,
+          1
+        ],
+        "stable_algebra": "dual numbers",
+        "stable_basis": [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "structure_matrix": [
+          [
+            1,
+            -1,
+            0
+          ],
+          [
+            0,
+            -1,
+            -1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "id": "C09",
+      "status": "PASS"
+    },
+    {
+      "description": "Negative control detects a coefficient change that destroys idempotent-freeness",
+      "evidence": {
+        "mutation": "row 1 column 3: 2 -> 0",
+        "new_nonzero_idempotent": [
+          "-1/2",
+          0,
+          0
+        ]
+      },
+      "id": "C10",
+      "status": "PASS"
+    },
+    {
+      "description": "Scope test: arbitrary square-zero-free lines need not contain idempotents",
+      "evidence": {
+        "line": "C e1 in Barei E_0",
+        "missing_hypothesis": "multiplication closure / V squared = V",
+        "square": [
+          "-2",
+          "0",
+          "2"
+        ]
+      },
+      "id": "C11",
+      "status": "PASS"
+    }
+  ],
+  "exclusions": [
+    "not a proof-assistant formalization",
+    "not a machine proof of universal fixed-point or Bezout theorem",
+    "not independent verification of author interaction histories",
+    "not a novelty search over all literature"
+  ],
+  "python_version": "3.12.14",
+  "required_dependencies": "Python standard library only",
+  "scope": "Exact finite computations and stated exhaustive branch checks",
+  "status": "PASS"
+}
