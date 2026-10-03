@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-03",
+  "source_commit": "a52a1caf3c7e2f560eb9c3ee01f676153d299f83",
+  "python_executable": "python3",
+  "python_version": "3.12.14",
+  "original_eleven_check_records_match_published_results": true,
+  "runs": [
+    {
+      "script": "input_record/verify_audit.py",
+      "command": [
+        "python3",
+        "input_record/verify_audit.py",
+        "--output",
+        "results_original_checker_rerun.json"
+      ],
+      "started_at_utc": "2026-10-03T20:04:29.158930+00:00",
+      "finished_at_utc": "2026-10-03T20:04:29.210670+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "check_groups": 11,
+      "results": "results_original_checker_rerun.json",
+      "actual_stdout_log": "run_log_original_checker.txt",
+      "script_sha256": "7249514cc8fba3030d9fab1613874dd19e98a1a934088055fc0761889b136444"
+    },
+    {
+      "script": "verify_minimality.py",
+      "command": [
+        "python3",
+        "verify_minimality.py",
+        "--output",
+        "results_minimality.json"
+      ],
+      "started_at_utc": "2026-10-03T20:04:29.211325+00:00",
+      "finished_at_utc": "2026-10-03T20:04:29.270014+00:00",
+      "exit_code": 0,
+      "status": "PASS",
+      "check_groups": 9,
+      "results": "results_minimality.json",
+      "actual_stdout_log": "run_log_minimality.txt",
+      "script_sha256": "09b7b7afdccb2e0b015c17e8f3bef6f8a08350826a7d7137f35d5495f98b1adf"
+    }
+  ],
+  "scope": "The two programs provide exact supporting data; universal statements are proved in the report.",
+  "publishing_or_contacting": false
+}

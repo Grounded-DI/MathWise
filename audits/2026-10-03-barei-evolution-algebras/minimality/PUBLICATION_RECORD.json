@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03",
+  "prior_commit": "a52a1caf3c7e2f560eb9c3ee01f676153d299f83",
+  "authorized_by": "Mark S. Weinstein",
+  "attachment_sha256": "4f410390393b2e8cb1d1426d25eb1a45e05b62c73856c2a259d6267cd0ef687c",
+  "archive_crc_and_15_internal_hashes": "PASS",
+  "runs": [
+    {
+      "script": "verify_minimality.py",
+      "started_at_utc": "2026-10-03T20:49:39.322978+00:00",
+      "exit_code": 0,
+      "check_groups": 9,
+      "results": "results_minimality_publication.json"
+    },
+    {
+      "script": "input_record/verify_audit.py",
+      "started_at_utc": "2026-10-03T20:49:39.370777+00:00",
+      "exit_code": 0,
+      "check_groups": 11,
+      "results": "results_original_publication.json"
+    }
+  ],
+  "check_records_match_prepared_results": true,
+  "original_package_preserved": true,
+  "scope": "Exact supporting computations; universal mathematical proofs reviewed separately."
+}

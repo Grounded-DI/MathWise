@@ -1,0 +1,5 @@
+Minimal ambient dimension of the strictness witness. The four-dimensional construction in this audit has the least possible ambient dimension over C among evolution algebras whose stable term D has N(D) = {0} but no natural basis.
+
+Indeed, any commutative complex algebra A of dimension two with N(A) = {0} admits a natural basis. For a basis a,b, write L_u(v) = uv. If L_a is singular, take u = a; otherwise the quadratic det(L_b + tL_a) has a complex root t₀, giving nonzero u = b + t₀a with L_u singular. Choose 0 ≠ v in its kernel. Since u² ≠ 0, u,v are independent; uv = 0 makes them a natural basis. Dimensions zero and one are immediate.
+
+Thus D without a natural basis and with N(D) = {0} must have dimension at least three. Since D ≠ E, the ambient dimension is at least four. The existing witness attains that bound. Consequently Barei’s and Hu-Wen’s sufficient hypotheses coincide in ambient dimensions at most three and first separate in dimension four. This is a proof reconstructed for the audit follow-up; no historical novelty claim is made.

@@ -1,0 +1,12 @@
+PASS: 11 exact check groups; scope limitations retained.
+C01 PASS: Published multiplication identities reconstructed from the matrix
+C02 PASS: Derived chain has a nonzero stable term
+C03 PASS: All idempotent branches exhausted analytically
+C04 PASS: Barei example is isomorphic to Hu-Wen E_2
+C05 PASS: Strictness witness: E squared is the indicated three-dimensional algebra
+C06 PASS: Strictness witness: stable term is not an evolution algebra
+C07 PASS: Scope test: F_3 has a perfect, square-zero-free, idempotent-free example
+C08 PASS: Scope test: Barei's particular example is solvable in characteristic two
+C09 PASS: Scope test: N(D)=0 is sufficient, not necessary for the equivalence
+C10 PASS: Negative control detects a coefficient change that destroys idempotent-freeness
+C11 PASS: Scope test: arbitrary square-zero-free lines need not contain idempotents

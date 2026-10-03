@@ -1,0 +1,11 @@
+claim,source_location,followup_location,status_and_scope,source_url
+Target definitions,Barei p. 1 and section 2 p. 2,Report section 1 p. 1,Source definitions; conventions preserved,https://ai.meta.com/research/publications/on-solvable-evolution-algebras-and-a-conjecture-by-garcia-martinez-and-perez-rodriguez/
+Witness construction and both target properties,"Earlier detailed audit p. 8; published checker lines 152-184, C05-C06",Report sections 4-6 pp. 2-3; M01-M04,Carried forward and newly reconstructed,https://github.com/Grounded-DI/MathWise/blob/a52a1caf3c7e2f560eb9c3ee01f676153d299f83/audits/2026-10-03-barei-evolution-algebras/input_record/Barei_Evolution_Algebra_Audit.pdf
+Published actual results,"evidence/results_rechecked.json, C05-C06",results_original_checker_rerun.json and RUN_RECORD.json,Fresh unchanged-checker execution matches eleven prior records,https://github.com/Grounded-DI/MathWise/blob/a52a1caf3c7e2f560eb9c3ee01f676153d299f83/audits/2026-10-03-barei-evolution-algebras/evidence/results_rechecked.json
+Low-dimensional natural-basis lemma,No classification theorem cited,Report section 2 p. 1; M05-M07 provide supporting identities/fixtures,Mathematical proof reconstructed in this follow-up,
+All lower ambient cases and minimum four,Existing witness is only the upper bound,Report section 3 p. 1 and sections 4-6 pp. 2-3,"Additional universal proof, not inferred from passing code",
+Sufficient hypotheses agree for ambient dimension <=3,Barei Remark 3.6 p. 4; Hu-Wen Proposition 2.8 p. 6,Report section 7 p. 3,Elementary consequence with backward implication rederived,https://arxiv.org/pdf/2609.25023
+Degenerate product image and singular operators,No classification imported,Report section 8 p. 4; M06 and M08,Written universal cases; exact fixtures are supporting data,
+Real-field and square-zero-hypothesis controls,Deliberate changes to the lemma hypotheses,Report section 8 p. 4; M07 and M09,Outside-hypothesis examples; no contradiction to complex lemma,
+Actual computation scope,Unchanged checker plus new supporting checker,Report section 9 p. 4; both results/logs and RUN_RECORD.json,11/11 prior groups and 9/9 new groups; universal proof separate,
+Proposed addendum,Not published,Report section 11 p. 5 and PROPOSED_ADDENDUM.txt,Review draft,

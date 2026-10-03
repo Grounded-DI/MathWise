@@ -1,0 +1,10 @@
+PASS: 9 supporting exact check groups; universal proof supplied separately.
+M01 PASS: Witness embedding and all nine basis-product identities
+M02 PASS: Derived chain and spanning products establishing D squared = D
+M03 PASS: Exact square-map coefficients
+M04 PASS: Invertible reference form and nonzero commutator
+M05 PASS: General two-dimensional determinant identity in independent formal variables
+M06 PASS: Initially singular multiplication operator produces a natural basis
+M07 PASS: Invertible branch with genuinely nonreal determinant roots
+M08 PASS: Degenerate product-image controls
+M09 PASS: Square-zero hypothesis control: dual-number multiplication

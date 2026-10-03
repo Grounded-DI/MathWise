@@ -1,0 +1,335 @@
+{
+  "arithmetic": "fractions.Fraction, integer sparse polynomials, rational-pair Q(i)",
+  "check_groups": 9,
+  "checks": [
+    {
+      "description": "Witness embedding and all nine basis-product identities",
+      "evidence": {
+        "identities": 9,
+        "product": "(xu+yv, yv+zw, xw+zu)",
+        "stable_basis": [
+          [
+            1,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "structure_matrix": [
+          [
+            1,
+            0,
+            -1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            -1,
+            -1
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      },
+      "id": "M01",
+      "status": "PASS"
+    },
+    {
+      "description": "Derived chain and spanning products establishing D squared = D",
+      "evidence": {
+        "dimensions": [
+          4,
+          3,
+          3
+        ],
+        "hyperplane": "last coordinate = first + third",
+        "stable_row_basis": [
+          [
+            "1",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "1"
+          ]
+        ]
+      },
+      "id": "M02",
+      "status": "PASS"
+    },
+    {
+      "description": "Exact square-map coefficients",
+      "evidence": {
+        "coefficients": [
+          [
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0"
+          ]
+        ],
+        "monomials": [
+          "x^2",
+          "y^2",
+          "z^2",
+          "xy",
+          "xz",
+          "yz"
+        ],
+        "scope": "Exhaustive complex square-zero elimination is the written two-branch proof."
+      },
+      "id": "M03",
+      "status": "PASS"
+    },
+    {
+      "description": "Invertible reference form and nonzero commutator",
+      "evidence": {
+        "B0": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "B0_determinant": 2,
+        "commutator": [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        "scope": "The implication from a natural basis to commuting operators is proved in the report."
+      },
+      "id": "M04",
+      "status": "PASS"
+    },
+    {
+      "description": "General two-dimensional determinant identity in independent formal variables",
+      "evidence": {
+        "arithmetic": "Sparse polynomial coefficients are exact integers.",
+        "basis_products": [
+          "a^2=(p,q)",
+          "ab=(r,s)",
+          "b^2=(t,u)"
+        ],
+        "determinant": "(ps-qr)lambda^2 + (pu-qt)lambda + (ru-ts)",
+        "scope": "Root existence and the natural-basis proof remain mathematical arguments."
+      },
+      "id": "M05",
+      "status": "PASS"
+    },
+    {
+      "description": "Initially singular multiplication operator produces a natural basis",
+      "evidence": {
+        "basis_squares": [
+          "u^2=u",
+          "v^2=v"
+        ],
+        "mixed_product": [
+          0,
+          0
+        ],
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "u": [
+          1,
+          0
+        ],
+        "v": [
+          -1,
+          1
+        ]
+      },
+      "id": "M06",
+      "status": "PASS"
+    },
+    {
+      "description": "Invertible branch with genuinely nonreal determinant roots",
+      "evidence": {
+        "arithmetic": "Q(i) represented by pairs of rational numbers.",
+        "basis_determinant": "-2",
+        "det_L_b_plus_lambda_a": "lambda^2+1",
+        "mixed_product": [
+          "0",
+          "0"
+        ],
+        "scope": "Over R this algebra is not an evolution algebra; the field-boundary proof is in the report.",
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            -1,
+            0
+          ]
+        ],
+        "u": [
+          "i",
+          "1"
+        ],
+        "v": [
+          "1",
+          "i"
+        ]
+      },
+      "id": "M07",
+      "status": "PASS"
+    },
+    {
+      "description": "Degenerate product-image controls",
+      "evidence": {
+        "rank_one_nilvector": [
+          "1",
+          "i"
+        ],
+        "rank_one_table": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "scope": "All product images of dimension <=1 are excluded by the written homogeneous-quadratic argument.",
+        "zero_image_nilvector": [
+          1,
+          0
+        ]
+      },
+      "id": "M08",
+      "status": "PASS"
+    },
+    {
+      "description": "Square-zero hypothesis control: dual-number multiplication",
+      "evidence": {
+        "det_L_xa_plus_yb": "x^2",
+        "nonzero_square_zero_vector": [
+          0,
+          1
+        ],
+        "scope": "Failure to admit a natural basis without the square-zero-free hypothesis is proved in the report.",
+        "table": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "id": "M09",
+      "status": "PASS"
+    }
+  ],
+  "dependencies": "Python 3.8+ standard library",
+  "exclusions": [
+    "No exhaustive classification search",
+    "No proof-assistant verification",
+    "No machine proof of complex root existence or all dimension exclusions",
+    "No historical novelty or AI-provenance determination"
+  ],
+  "python_version": "3.12.14",
+  "status": "PASS",
+  "universal_conclusions": "Supplied by the report; successful execution is supporting evidence."
+}

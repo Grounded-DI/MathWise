@@ -10,6 +10,8 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 The [public companion PDF](audits/2026-10-03-barei-evolution-algebras/artifacts/Barei_Public_Audit_Companion.pdf), [complete review package](audits/2026-10-03-barei-evolution-algebras/artifacts/Barei_Public_Audit_Review_Package.zip), [claim-to-evidence table](audits/2026-10-03-barei-evolution-algebras/CLAIM_EVIDENCE.csv), [unchanged checker](audits/2026-10-03-barei-evolution-algebras/verify_audit.py), and [actual results](audits/2026-10-03-barei-evolution-algebras/evidence/results_rechecked.json) are available for inspection. All 11 exact check groups passed; the general proofs were reviewed separately. Correctness, reproducibility, and file integrity remain separate conclusions. Novelty and author-reported AI attribution have their own disclosed limits; no endorsement by Meta or the paper’s authors is implied.
 
+**Minimality follow-up, 3 October 2026:** [Four dimensions are minimal](audits/2026-10-03-barei-evolution-algebras/minimality/README.md). The follow-up gives a short low-dimensional proof, reconstructs the witness, and publishes exact supporting checks with their actual outputs. The earlier audit remains intact.
+
 ## Overview
 
 This repository preserves a public collection of mathematical proposals, formula and specification records, visualizations, replay receipts, and a safety-bounded research planning framework. The September 17, 2026 release adds the RH-001H XT-004G1 certificate package, which records two negative interval enclosures for `V_32(1/5)`, source bindings, an internal SHA-256 manifest, and lightweight verification scripts.
