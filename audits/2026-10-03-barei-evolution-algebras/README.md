@@ -50,7 +50,7 @@ Correctness rests on the disclosed calculations and proof dependencies. Reproduc
 ## Inspect the evidence
 
 - [Complete original review package](artifacts/Barei_Public_Audit_Review_Package.zip) and [supplied ZIP SHA-256 record](artifacts/Barei_Public_Audit_Review_Package.zip.sha256.txt)
-- [Four-page public companion](artifacts/Barei_Public_Audit_Companion.pdf)
+- [Four-page draft-stage companion, published unchanged](artifacts/Barei_Public_Audit_Companion.pdf)
 - [Claim-to-evidence table](CLAIM_EVIDENCE.csv), with exact primary-source and detailed-audit locations
 - [Unchanged checker](verify_audit.py) and [actual rerun results](evidence/results_rechecked.json)
 - [Actual run log](evidence/run_log_rechecked.txt) and [dated recheck record](evidence/RECHECK_RECORD.json)
