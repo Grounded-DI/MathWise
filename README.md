@@ -20,6 +20,10 @@ The archive separates three different kinds of material: mathematical or scienti
 
 No production executable solver or runtime package, dependency manifest, test suite, or CI workflow is included in the current repository. The new certificate package includes Python scripts that check the stored interval conditions and package manifest, plus a bundled predecessor archive; those are review tools and evidence, not a production solver or full rerunnable derivation. The files are therefore suitable for review and controlled evaluation, not direct deployment.
 
+## Related records
+
+The [RH-001H moving-endpoint repository](https://github.com/Grounded-DI/Grounded-DI-Riemann_Hypothesis_Research_Moving-Endpoint_Obstruction_to_Global_Second-Tail_Positivity) preserves the separate moving-endpoint obstruction / global second-tail positivity checkpoint. This repository remains the public record for neighboring-zero certificates, exact replay ledgers, and related certificate work. The two records are related but distinct; neither replaces the other.
+
 ## Why It Matters
 
 The strongest record in this repository is the explicit separation of mathematical content from replay identity. The polygon-cascade receipts preserve a canonical payload hash, mathematical-data hash, SVG hash, ZIP hash, run number, and verification result. That gives a reviewer a concrete basis for checking whether a later artifact is byte-identical to the recorded output, while leaving mathematical correctness to separate analysis.
