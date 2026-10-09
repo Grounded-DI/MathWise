@@ -182,3 +182,8 @@ This is a method-obstruction checkpoint: one first-cumulative branch is closed w
 ## Discovery
 
 #MathWise #DeterministicAI #MathematicalModeling #Replayability #AuditTrail #Provenance #ResponsibleAI
+ 
+
+## Curated certificate collection
+
+For a cross-repository map of the mathematical certificates, fixed-case records, RH checkpoints, and related replay audits preserved in this repository, see [MathWise Deterministic Replay Certificates](https://github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates). The source repository remains canonical for the records above.
