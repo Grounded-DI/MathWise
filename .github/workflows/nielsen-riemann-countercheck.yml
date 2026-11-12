@@ -1,0 +1,56 @@
+name: Pinned Lean countercheck
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obtain pinned submission and Lean
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 2 'https://raw.githubusercontent.com/startigerjln/Nielsen-and-Semita-Riemann-Proof-in-Lean4/4532fb4410ffeed655a165cbb77032b8b4882e54/RiemannHypothesis-Lean4%20VERSION%202.zip' -o submission.zip
+          echo '6a7ffbc02f7fcfa9beeee133c00d0c544931fd3d5ea0573ac5834ed43af6d31d  submission.zip' | sha256sum -c -
+          mkdir submission
+          unzip -q submission.zip -d submission
+          curl -fsSL --retry 2 'https://github.com/leanprover/lean4/releases/download/v4.16.0/lean-4.16.0-linux.tar.zst' -o lean.tar.zst
+          tar --zstd -xf lean.tar.zst
+          echo "$PWD/lean-4.16.0-linux/bin" >> "$GITHUB_PATH"
+      - name: Inspect declared version and original Lake build
+        shell: bash
+        working-directory: submission
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          lean --version
+          cat lean-toolchain
+          lake build
+      - name: Compile original modules and countercheck
+        shell: bash
+        working-directory: submission
+        run: |
+          set -euo pipefail
+          export LEAN_PATH=.
+          for module in Defs Soundness Obstruction Independence TruthInN ProofII ProofIII Main; do
+            echo "=== RH/$module.lean ==="
+            lean -DautoImplicit=false -o "RH/$module.olean" "RH/$module.lean"
+          done
+          cat > Countercheck.lean <<'LEAN'
+          import RH.Main
+
+          theorem published_axioms_inconsistent : False := by
+            obtain ⟨τ, hτ⟩ := exists_lambda_sound
+            obtain ⟨M, hM, hobs⟩ := linear_obstruction_RH τ hτ
+            have heq : msat modLin M RH_L = msat modLin M (τ.RL RH_L) :=
+              propext (hτ.pres RH_L M hM)
+            exact hobs heq
+
+          #print axioms published_axioms_inconsistent
+          #print axioms riemann_hypothesis_resolved
+          #check riemann_hypothesis_resolved
+          LEAN
+          lean -DautoImplicit=false Countercheck.lean
