@@ -37,7 +37,7 @@ jobs:
           export LEAN_PATH=.
           for module in Defs Soundness Obstruction Independence TruthInN ProofII ProofIII Main; do
             echo "=== RH/$module.lean ==="
-            lean -o "RH/$module.olean" "RH/$module.lean"
+            lean -DautoImplicit=false -o "RH/$module.olean" "RH/$module.lean"
           done
           cat > Countercheck.lean <<'LEAN'
           import RH.Main
@@ -53,4 +53,4 @@ jobs:
           #print axioms riemann_hypothesis_resolved
           #check riemann_hypothesis_resolved
           LEAN
-          lean Countercheck.lean
+          lean -DautoImplicit=false Countercheck.lean
