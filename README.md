@@ -4,7 +4,11 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 **Published by:** Grounded DI LLC · **Creator / operator:** Mark S. Weinstein · **Public repository established:** July 29, 2025
 
-## Latest audit — Barei evolution algebras
+## Latest audit — Nielsen–Semita Lean RH submission
+
+**Published 12 November 2026:** [Lean countercheck and audit](audits/2026-11-12-nielsen-semita-riemann/README.md). Lean 4.16.0 accepted a derivation of `False` from assumptions in the pinned Version 2 submission, after the original modules were compiled individually. The original `lake build` failed; the audit preserves that result and links to the full workflow log. This is a finding about the submitted formalization, not a proof or disproof of the Riemann hypothesis.
+
+## Previous audit — Barei evolution algebras
 
 **Published 3 October 2026:** [Barei Evolution Algebra Audit Confirmation](audits/2026-10-03-barei-evolution-algebras/README.md). The principal mathematics survived a source-informed, AI-assisted bounded audit commissioned by Mark S. Weinstein under the stated hypotheses. The note explains shorter proof routes, the isomorphism with Hu–Wen’s example, and an independently constructed four-dimensional supporting witness whose historical novelty remains unestablished.
 
