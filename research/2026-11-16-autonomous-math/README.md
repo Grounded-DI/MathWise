@@ -46,3 +46,9 @@ The original research PDFs, frozen ZIPs, source ledgers, checksums and original 
 - **Current Cycle13:** vertex-disjoint nonroot arcs of a bidirected five-cycle have positive covariance 2/25, refuting the formulated directed negative-correlation conjecture.
 
 All three retain **COUNTEREXAMPLE FOUND** classification. Fresh publication runs reproduced the original exact JSON outputs. This batch includes mathematical verification code and finite certificates; the original mixed operational ZIPs are not mirrored. No global novelty, formal verification or external certification is claimed. Corrected actual-investigation numbers and historical source aliases are recorded separately.
+
+## Eight Rounds — documentary research book (Edition 02)
+
+[Read the publication entry](eight-rounds-edition02/README.md) · [Machine-readable publication record](eight-rounds-edition02/publication.json).
+
+The separately documented MWPRO-20261116-8H series comprises four candidate reconstructions of classical theorems, three exact counterexamples to experimental conjectures, and one partial investigation. Its eight rounds were manually authorized, not eight unattended scheduler runs. The 90-page book has a recorded SHA-256 digest and a conditional/partial verification ledger. The PDF and full ledger are not yet hosted in this repository; the linked entry does not imply otherwise. This series may overlap subjects listed above, and overlapping results are not counted as additional independent discoveries.
