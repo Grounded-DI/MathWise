@@ -1,0 +1,28 @@
+{
+  "cycle": 11,
+  "legacy_cycle": null,
+  "report_filename": "MWR-20261116-24H_CurrentCycle11_Tree_Deletion_Report.pdf",
+  "report_library_id": "libfile_5c5c7af14a188191bfe832aa3fb8e814",
+  "package_filename": "MWR-20261116-24H_CurrentCycle11_Research_Package.zip",
+  "package_library_id": "libfile_c679766bb19881918ff1f854aa96e86f",
+  "package_sha256": "c964ecdfd42912d59547b0caa29d4be709097d8af556490d6e545fe9e2f56329",
+  "classification": "COUNTEREXAMPLE FOUND",
+  "series": "MWR-20261116-24H",
+  "source_index_library_id": "libfile_0c431a32dadc81918d7de3ad3f5bdce2",
+  "source_archive_crc": "PASS",
+  "source_archive_unique_safe_paths": "PASS",
+  "source_member_hashes": {
+    "proof.txt": "c8dbdac176b0dbbf7843ef8ddbed36dabe5ecf614d0461cbe51db99310e52f69",
+    "verify.py": "377416f23691163960a81f3a8a1975958ef7c650f93910fc1f7af4046f190ace",
+    "MWR-20261116-24H_CurrentCycle11_Tree_Deletion_Report.pdf": "0390649304bff5aed0c283e6527ff9e9d75ceec00664bc28d62620dcd961e704"
+  },
+  "public_edition": "New mathematical manuscript derived from source report and proof; original verify.py unchanged. Original mixed archive is not published.",
+  "omitted": "Operator, schedule, runtime/governance, save receipts, environment paths and unrelated records excluded.",
+  "novelty_claim": false,
+  "source_manifest_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 24
+  },
+  "public_verifier_sha256": "377416f23691163960a81f3a8a1975958ef7c650f93910fc1f7af4046f190ace"
+}

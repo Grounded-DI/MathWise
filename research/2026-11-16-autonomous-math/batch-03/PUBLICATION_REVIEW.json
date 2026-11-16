@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "review_scope": "Every proposed batch text file; manuscripts, code, certificates and outputs inspected. No mixed source ZIPs or operational ledgers included.",
+  "included": "Mathematical arguments, source artifact identities/hashes, exact inputs, unchanged mathematical checkers and fresh results.",
+  "omitted_investigations": [],
+  "private_material_check": "No credentials, proprietary instructions, patent materials or unrelated records found.",
+  "corrected_cycle_numbers": [
+    9,
+    11,
+    13
+  ],
+  "legacy_aliases": {
+    "9": 12,
+    "11": null,
+    "13": null
+  }
+}

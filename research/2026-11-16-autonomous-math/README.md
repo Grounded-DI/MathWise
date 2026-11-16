@@ -35,3 +35,14 @@ The cycle conjecture asserted that independence-polynomial coefficients are log-
 The original research PDFs, frozen ZIPs, source ledgers, checksums and original execution outputs are NOT all mirrored by publishing this index. Public publication of this first register must not be confused with complete archival release. A hash verifies specified bytes, not mathematical truth, novelty or cross-runtime replay. Finite checks cannot prove arbitrary universal statements. No peer review or formal proof-assistant validation is claimed. Keep proprietary DI2/DIP architecture, patent documents, internal controls and unrelated private archives out of this repository.
 
 **Research date:** November 16, 2026. **Publisher:** Grounded DI LLC. **Operator:** Mark S. Weinstein.
+
+
+## Batch 03: Three additional exact counterexamples
+
+[Batch 03 — manuscripts, executable original checkers and fresh verification results](batch-03/README.md) publishes three additional actual investigations from MWR-20261116-24H:
+
+- **Current Cycle09 (historical Cycle12):** the specified lexicographic greedy Birkhoff decomposition uses nine terms while the certified optimum is four, refuting its proposed factor-two bound.
+- **Current Cycle11:** two-step greedy edge deletion preserves four spanning trees while the global optimum preserves five.
+- **Current Cycle13:** vertex-disjoint nonroot arcs of a bidirected five-cycle have positive covariance 2/25, refuting the formulated directed negative-correlation conjecture.
+
+All three retain **COUNTEREXAMPLE FOUND** classification. Fresh publication runs reproduced the original exact JSON outputs. This batch includes mathematical verification code and finite certificates; the original mixed operational ZIPs are not mirrored. No global novelty, formal verification or external certification is claimed. Corrected actual-investigation numbers and historical source aliases are recorded separately.

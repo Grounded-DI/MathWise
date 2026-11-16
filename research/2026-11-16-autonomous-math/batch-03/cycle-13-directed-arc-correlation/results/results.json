@@ -1,0 +1,29 @@
+{
+  "graphs": 6,
+  "n_bounds": [
+    5,
+    10
+  ],
+  "parent_assignments": 1008,
+  "undirected_subsets": 45,
+  "disjoint_nonroot_pair_cases": 56,
+  "determinants": 174,
+  "all_checks_pass": true,
+  "witness": {
+    "e": [
+      1,
+      2
+    ],
+    "f": [
+      3,
+      4
+    ],
+    "counts": [
+      5,
+      1,
+      3,
+      1
+    ],
+    "covariance": "2/25"
+  }
+}

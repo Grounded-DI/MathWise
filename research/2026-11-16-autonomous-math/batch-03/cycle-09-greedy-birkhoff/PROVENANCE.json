@@ -1,0 +1,28 @@
+{
+  "cycle": 9,
+  "legacy_cycle": 12,
+  "report_filename": "MWR-20261116-24H_Cycle12_Greedy_Counterexample_Report.pdf",
+  "report_library_id": "libfile_afab971980508191a78ff6694ae39e30",
+  "package_filename": "MWR-20261116-24H_Cycle12_Research_Package.zip",
+  "package_library_id": "libfile_1c370ee354ec81918abba52dce6e66d3",
+  "package_sha256": "73a4caa2e456c624c7c967ad19422a9ffcc307bd3f6adf46dd3e59fa049bd690",
+  "classification": "COUNTEREXAMPLE FOUND",
+  "series": "MWR-20261116-24H",
+  "source_index_library_id": "libfile_0c431a32dadc81918d7de3ad3f5bdce2",
+  "source_archive_crc": "PASS",
+  "source_archive_unique_safe_paths": "PASS",
+  "source_member_hashes": {
+    "proof.txt": "8ed3d98a461c42597fd85b1c3405721dea07ca38bfae16b67847a9d8648cfbb5",
+    "verify.py": "5f17328fe17e2cd7f8daf5f941c9261140ff335f7b9b95236aab19a52fd98a61",
+    "MWR-20261116-24H_Cycle12_Greedy_Counterexample_Report.pdf": "4a8bc1b2ca4687f2034f7ebacb7d6db1ce05a7fd8bc8def624c81d47ee5ccd36"
+  },
+  "public_edition": "New mathematical manuscript derived from source report and proof; original verify.py unchanged. Original mixed archive is not published.",
+  "omitted": "Operator, schedule, runtime/governance, save receipts, environment paths and unrelated records excluded.",
+  "novelty_claim": false,
+  "source_manifest_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 27
+  },
+  "public_verifier_sha256": "5f17328fe17e2cd7f8daf5f941c9261140ff335f7b9b95236aab19a52fd98a61"
+}

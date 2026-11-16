@@ -1,0 +1,61 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "implementation": "CPython",
+  "dependencies": "Python standard library only",
+  "assertions_required": "Do not use python -O",
+  "records": [
+    {
+      "directory": "cycle-09-greedy-birkhoff",
+      "command": [
+        "python3",
+        "verify.py",
+        "results"
+      ],
+      "start_utc": "2026-11-16T20:00:24.322032+00:00",
+      "finish_utc": "2026-11-16T20:00:24.362073+00:00",
+      "exit_code": 0,
+      "stdout_file": "verify.stdout.txt",
+      "stderr_file": "verify.stderr.txt"
+    },
+    {
+      "directory": "cycle-09-greedy-birkhoff",
+      "command": [
+        "python3",
+        "verify_trace.py"
+      ],
+      "start_utc": "2026-11-16T20:00:24.362090+00:00",
+      "finish_utc": "2026-11-16T20:00:24.390913+00:00",
+      "exit_code": 0,
+      "stdout_file": "verify_trace.stdout.txt",
+      "stderr_file": "verify_trace.stderr.txt"
+    },
+    {
+      "directory": "cycle-11-greedy-edge-deletion",
+      "command": [
+        "python3",
+        "verify.py",
+        "results"
+      ],
+      "start_utc": "2026-11-16T20:00:24.395184+00:00",
+      "finish_utc": "2026-11-16T20:00:24.430752+00:00",
+      "exit_code": 0,
+      "stdout_file": "verify.stdout.txt",
+      "stderr_file": "verify.stderr.txt"
+    },
+    {
+      "directory": "cycle-13-directed-arc-correlation",
+      "command": [
+        "python3",
+        "verify.py",
+        "results"
+      ],
+      "start_utc": "2026-11-16T20:00:24.432786+00:00",
+      "finish_utc": "2026-11-16T20:00:24.489348+00:00",
+      "exit_code": 0,
+      "stdout_file": "verify.stdout.txt",
+      "stderr_file": "verify.stderr.txt"
+    }
+  ],
+  "fresh_outputs_equal_original_json": true,
+  "shared_environment_limit": "Original and publication implementations have shared authorship; no external reviewer or formal checker used."
+}

@@ -1,0 +1,11 @@
+{
+  "classification": "COUNTEREXAMPLE FOUND",
+  "masks_visited": 319,
+  "connected_eligible_graphs_checked": 42,
+  "candidate_tree_subsets_examined": 780,
+  "determinants_checked": 29,
+  "rooted_parent_tree_count": 24,
+  "formal_verification": false,
+  "external_review": false,
+  "novelty_claim": false
+}

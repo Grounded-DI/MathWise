@@ -1,0 +1,28 @@
+{
+  "cycle": 13,
+  "legacy_cycle": null,
+  "report_filename": "MWR-20261116-24H_CurrentCycle13_Arc_Correlation_Report.pdf",
+  "report_library_id": "libfile_630b7634e80c819195b352b895def9e5",
+  "package_filename": "MWR-20261116-24H_CurrentCycle13_Research_Package.zip",
+  "package_library_id": "libfile_917143591518819194763d7287c1f8c0",
+  "package_sha256": "d9ee6ebe243ea333ea50098dde77efd23b421c8047a33d4e85309e585936d910",
+  "classification": "COUNTEREXAMPLE FOUND",
+  "series": "MWR-20261116-24H",
+  "source_index_library_id": "libfile_0c431a32dadc81918d7de3ad3f5bdce2",
+  "source_archive_crc": "PASS",
+  "source_archive_unique_safe_paths": "PASS",
+  "source_member_hashes": {
+    "proof.txt": "c23d78bcd1ce6a9afb49b7f8a6ef0371c3d09f5c33364fbca829f40dfb3279b2",
+    "verify.py": "69285cc56af815ea593cb9642a500524f7dc0ef3770377d98027875083704dfa",
+    "MWR-20261116-24H_CurrentCycle13_Arc_Correlation_Report.pdf": "2188b94d6042b06d6c1b4b028a6843dfc3698f4650041e82fc4dffe4b7d566de"
+  },
+  "public_edition": "New mathematical manuscript derived from source report and proof; original verify.py unchanged. Original mixed archive is not published.",
+  "omitted": "Operator, schedule, runtime/governance, save receipts, environment paths and unrelated records excluded.",
+  "novelty_claim": false,
+  "source_manifest_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 23
+  },
+  "public_verifier_sha256": "69285cc56af815ea593cb9642a500524f7dc0ef3770377d98027875083704dfa"
+}

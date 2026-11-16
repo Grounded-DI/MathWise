@@ -1,0 +1,2511 @@
+[
+  {
+    "step": 1,
+    "before": [
+      [
+        8,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        4,
+        8
+      ],
+      [
+        4,
+        8,
+        1,
+        2
+      ],
+      [
+        2,
+        4,
+        8,
+        1
+      ]
+    ],
+    "chosen_permutation": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        7,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        1,
+        4,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        2
+      ],
+      [
+        2,
+        4,
+        8,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": []
+  },
+  {
+    "step": 2,
+    "before": [
+      [
+        7,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        1,
+        4,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        2
+      ],
+      [
+        2,
+        4,
+        8,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        6,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        7,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 3,
+    "before": [
+      [
+        6,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        4,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        7,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        5,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        7,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 4,
+    "before": [
+      [
+        5,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        8
+      ],
+      [
+        4,
+        8,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        7,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "minimum_subtracted": 5,
+    "after": [
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 5,
+    "before": [
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        0,
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 6,
+    "before": [
+      [
+        0,
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        1,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "minimum_subtracted": 2,
+    "after": [
+      [
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 7,
+    "before": [
+      [
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        1,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        1,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 8,
+    "before": [
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      3,
+      2,
+      0,
+      1
+    ],
+    "minimum_subtracted": 1,
+    "after": [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "step": 9,
+    "before": [
+      [
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ]
+    ],
+    "chosen_permutation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "minimum_subtracted": 2,
+    "after": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "earlier_permutation_blockers": [
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          2,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          0,
+          3,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          2,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          0,
+          3,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          1,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          0,
+          3
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          1,
+          3,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          0,
+          1
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          2,
+          3,
+          1,
+          0
+        ],
+        "zero_positions": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          0,
+          1,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          0,
+          2,
+          1
+        ],
+        "zero_positions": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          1,
+          0,
+          2
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          1,
+          2,
+          0
+        ],
+        "zero_positions": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "earlier_permutation": [
+          3,
+          2,
+          0,
+          1
+        ],
+        "zero_positions": [
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      }
+    ]
+  }
+]
