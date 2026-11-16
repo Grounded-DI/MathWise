@@ -1,0 +1,113 @@
+{
+  "schema_version": "mathwise-publication-v1",
+  "id": "MWPRO-20261116-8H",
+  "title": "Eight Rounds: A Documented Experiment in Autonomous Mathematical Research",
+  "edition": "02",
+  "date": "2026-11-16",
+  "publisher": "Grounded DI LLC",
+  "project": "MathWise",
+  "type": "documentary mathematical research monograph",
+  "execution": {
+    "rounds": 8,
+    "authorization": "manual",
+    "unattended_schedule": false
+  },
+  "results": [
+    {
+      "round": 1,
+      "topic": "Erdos-Ginzburg-Ziv theorem",
+      "status": "CANDIDATE_PROOF",
+      "historical_novelty_claim": false
+    },
+    {
+      "round": 2,
+      "topic": "Quadratic zero-sum subset count",
+      "status": "COUNTEREXAMPLE_FOUND",
+      "witness": {
+        "n": 4,
+        "sequence": [
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "actual_count": 7,
+        "conjectured_lower_bound": 9
+      }
+    },
+    {
+      "round": 3,
+      "topic": "Weighted matrix-tree and negative correlation",
+      "status": "CANDIDATE_PROOF",
+      "historical_novelty_claim": false
+    },
+    {
+      "round": 4,
+      "topic": "Covariance monotonicity under edge addition",
+      "status": "COUNTEREXAMPLE_FOUND"
+    },
+    {
+      "round": 5,
+      "topic": "Matching polynomial real-rootedness",
+      "status": "CANDIDATE_PROOF",
+      "historical_novelty_claim": false
+    },
+    {
+      "round": 6,
+      "topic": "Matching-size response to edge addition",
+      "status": "COUNTEREXAMPLE_FOUND"
+    },
+    {
+      "round": 7,
+      "topic": "Galvin list edge coloring",
+      "status": "CANDIDATE_PROOF",
+      "historical_novelty_claim": false
+    },
+    {
+      "round": 8,
+      "topic": "Arbitrary-list coloring count",
+      "status": "PARTIAL",
+      "universal_claim_resolved": false
+    }
+  ],
+  "classification_totals": {
+    "candidate_proofs": 4,
+    "counterexamples": 3,
+    "partial": 1
+  },
+  "artifacts": {
+    "book_pdf": {
+      "filename": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.pdf",
+      "sha256": "3055b4ec3e8153729d92e4294f349f7a9192e2ceaa80865b532c48963ce3fcbb",
+      "bytes": 572272,
+      "pages": 90,
+      "github_binary_uploaded": false
+    },
+    "verification_ledger": {
+      "filename": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger.json",
+      "sha256": "441668c9bb979f4a11412250570c5efc2259e5911ff652c733b308449f68c1a0",
+      "github_binary_uploaded": false
+    }
+  },
+  "evidence": {
+    "recoverable_original_archives": 6,
+    "missing_original_archives": [
+      4,
+      5
+    ],
+    "verified_manifest_payloads": 804,
+    "ed02_checks": "selected compact certificates; not full historical searches"
+  },
+  "release_status": "CONDITIONAL / PARTIAL",
+  "limits": [
+    "No external human peer review or formal proof assistant certification",
+    "Not a proof of global novelty",
+    "Artifact byte identity does not establish mathematical correctness",
+    "Round 04 and 05 original archives missing",
+    "No unattended eight-hour execution"
+  ],
+  "repository": "https://github.com/Grounded-DI/MathWise"
+}
