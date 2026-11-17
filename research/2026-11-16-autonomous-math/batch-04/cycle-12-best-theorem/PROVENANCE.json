@@ -1,0 +1,28 @@
+{
+  "cycle": 12,
+  "legacy_cycle": null,
+  "report_filename": "MWR-20261116-24H_CurrentCycle12_BEST_Report.pdf",
+  "report_library_id": "libfile_9a82d48113a48191bed9fc81964bfa7e",
+  "package_filename": "MWR-20261116-24H_CurrentCycle12_Research_Package.zip",
+  "package_library_id": "libfile_e0ec79dc86088191b8c3b60ebe70f706",
+  "package_sha256": "107cbe32cf77ef583fdde669057ff521f17108c838193c7450fdb9a1f494e1ae",
+  "classification": "CANDIDATE PROOF",
+  "series": "MWR-20261116-24H",
+  "source_index": "Corrected schema2 CurrentCycle14 local snapshot, extending saved CurrentCycle13 (libfile_0c431a32dadc81918d7de3ad3f5bdce2). Original report/package saved identities independently retained below.",
+  "source_archive_crc": "PASS",
+  "source_archive_safe_unique_membership": "PASS",
+  "source_member_hash_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 31
+  },
+  "source_member_sha256": {
+    "proof.txt": "25033c7eeae94f03cfda53cd901ad2cb7ed15cd132039ced5905a1aa1209b45e",
+    "verify.py": "43808d2f43f5e902405e74fe032bbc4598d7088bdbd68af51b4aad41eeaca1f9",
+    "MWR-20261116-24H_CurrentCycle12_BEST_Report.pdf": "d865fb8845a90eba7112710e3e4e0debe577415568d8c110e94feb9bae481bb3"
+  },
+  "public_edition": "New mathematical manuscript derived from original report and proof; original verify.py unchanged. Mixed archive, report-build scripts and operational records omitted.",
+  "novelty_claim": false,
+  "external_proof_review": false,
+  "formal_proof_checker": false
+}

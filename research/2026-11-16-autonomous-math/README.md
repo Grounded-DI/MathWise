@@ -52,3 +52,14 @@ All three retain **COUNTEREXAMPLE FOUND** classification. Fresh publication runs
 [Read the publication entry](eight-rounds-edition02/README.md) · [Machine-readable publication record](eight-rounds-edition02/publication.json).
 
 The separately documented MWPRO-20261116-8H series comprises four candidate reconstructions of classical theorems, three exact counterexamples to experimental conjectures, and one partial investigation. Its eight rounds were manually authorized, not eight unattended scheduler runs. The 90-page book has a recorded SHA-256 digest and a conditional/partial verification ledger. The PDF and full ledger are not yet hosted in this repository; the linked entry does not imply otherwise. This series may overlap subjects listed above, and overlapping results are not counted as additional independent discoveries.
+
+
+## Batch 04: Three classical theorem reconstructions
+
+[Batch 04 — complete mathematical manuscripts, original checkers and fresh certificates](batch-04/README.md) publishes corrected actual Cycles10,12,14, all retaining **CANDIDATE PROOF** status:
+
+- **Cycle10 (historical13):** weighted Matrix-Tree theorem for real weights, including a Cauchy–Binet derivation and incidence-minor proof;1099 graphs,5405 cofactors,100 signed rational inputs and19160 incidence minors checked.
+- **Cycle12:** fixed-first-labeled-arc BEST theorem, last-exit bijection and directed determinant proof;125 eligible simple digraphs plus8 multigraph controls,876 fixed-arc cases and15024 tour/inverse tests.
+- **Cycle14:** Cauchy–Davenport via a coefficient identity, with sharpness and a composite-modulus boundary;17148 exhaustive small-prime set pairs,210 larger samples,11610 coefficient checks and377 sharpness cases.
+
+All original mathematical scripts completed fresh publication runs; every emitted JSON file matched the original mathematical outputs. These are established-theorem reconstructions, not novelty claims or formally/externally certified proofs. Complete finite certificates and a batch replay command are public; mixed operational archives and the private report-build environment are excluded.

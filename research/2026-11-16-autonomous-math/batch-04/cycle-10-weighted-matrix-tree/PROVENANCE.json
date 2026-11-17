@@ -1,0 +1,28 @@
+{
+  "cycle": 10,
+  "legacy_cycle": 13,
+  "report_filename": "MWR-20261116-24H_Cycle13_Matrix_Tree_Report.pdf",
+  "report_library_id": "libfile_a28ce01d1fe48191afccb9838e2ec3fc",
+  "package_filename": "MWR-20261116-24H_Cycle13_Research_Package.zip",
+  "package_library_id": "libfile_ec648c50e4748191a7ebf83db408090c",
+  "package_sha256": "dfaf48c133dba5a45a544f62ec69a9d4101c5a5ee095664cef85634a8029a163",
+  "classification": "CANDIDATE PROOF",
+  "series": "MWR-20261116-24H",
+  "source_index": "Corrected schema2 CurrentCycle14 local snapshot, extending saved CurrentCycle13 (libfile_0c431a32dadc81918d7de3ad3f5bdce2). Original report/package saved identities independently retained below.",
+  "source_archive_crc": "PASS",
+  "source_archive_safe_unique_membership": "PASS",
+  "source_member_hash_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 23
+  },
+  "source_member_sha256": {
+    "proof.txt": "6bbbb75f6401c427f67a2bad87602193f902531a9d764de5c7e46cb1cc6d50f8",
+    "verify.py": "5e044ff303572d0fc046db9cf972fddc69ebf3ad6272c4163bad4282e5fdde7b",
+    "MWR-20261116-24H_Cycle13_Matrix_Tree_Report.pdf": "b610287040cb845d033b90438a0f48ef32b3768feee0a74f619f46b53c9538df"
+  },
+  "public_edition": "New mathematical manuscript derived from original report and proof; original verify.py unchanged. Mixed archive, report-build scripts and operational records omitted.",
+  "novelty_claim": false,
+  "external_proof_review": false,
+  "formal_proof_checker": false
+}

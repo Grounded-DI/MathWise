@@ -1,0 +1,40 @@
+{
+  "exhaustive_pairs_by_prime": {
+    "2": 9,
+    "3": 49,
+    "5": 961,
+    "7": 16129
+  },
+  "exhaustive_total": 17148,
+  "seed": 2026111614,
+  "larger_sample_pairs": 210,
+  "sample_primes": [
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31
+  ],
+  "coefficient_monomial_checks": 11610,
+  "sharpness_cases": 377,
+  "all_pass": true,
+  "composite_negative_control": {
+    "modulus": 4,
+    "A": [
+      0,
+      2
+    ],
+    "B": [
+      0,
+      2
+    ],
+    "sumset": [
+      0,
+      2
+    ],
+    "size": 2,
+    "naive_bound": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cycle": 14,
+  "legacy_cycle": null,
+  "report_filename": "MWR-20261116-24H_CurrentCycle14_Cauchy_Davenport_Report.pdf",
+  "report_library_id": "libfile_e1752ebea3588191959236c57c49821a",
+  "package_filename": "MWR-20261116-24H_CurrentCycle14_Research_Package.zip",
+  "package_library_id": "libfile_9d643a95fa2c8191acb185dd7cda2bb5",
+  "package_sha256": "4311816b49462326632a8e75afa9196e88deaefa455edf082515814844d8e6f2",
+  "classification": "CANDIDATE PROOF",
+  "series": "MWR-20261116-24H",
+  "source_index": "Corrected schema2 CurrentCycle14 local snapshot, extending saved CurrentCycle13 (libfile_0c431a32dadc81918d7de3ad3f5bdce2). Original report/package saved identities independently retained below.",
+  "source_archive_crc": "PASS",
+  "source_archive_safe_unique_membership": "PASS",
+  "source_member_hash_verification": {
+    "status": "PASS",
+    "coverage": "All archive members except manifest itself",
+    "hashed_members": 24
+  },
+  "source_member_sha256": {
+    "proof.txt": "685217103e824df038c2db006411dbd92d5fcc1a4ae1eef30ace5114affe8e9c",
+    "verify.py": "bff369a2422b3e65970451b81b30529b233fe0e285fb430446ea4a16c4c44203",
+    "MWR-20261116-24H_CurrentCycle14_Cauchy_Davenport_Report.pdf": "ea95d5f2b482dfa01acbef14db3bf7ff9dd6d44de59da8047ec9e61119ab028c"
+  },
+  "public_edition": "New mathematical manuscript derived from original report and proof; original verify.py unchanged. Mixed archive, report-build scripts and operational records omitted.",
+  "novelty_claim": false,
+  "external_proof_review": false,
+  "formal_proof_checker": false
+}

@@ -1,0 +1,18 @@
+{
+  "simple_masks_examined": 4164,
+  "simple_graphs_by_n": {
+    "2": 1,
+    "3": 6,
+    "4": 118
+  },
+  "simple_graphs_accepted": 125,
+  "multigraph_controls": 8,
+  "total_graphs": 133,
+  "root_cofactors": 515,
+  "parent_assignments_tested": 2684,
+  "fixed_arc_cases": 876,
+  "direct_tours_and_inverse_tests": 15024,
+  "constructed_order_tuples": 15024,
+  "all_equal": true,
+  "arithmetic": "exact integers and Fraction; no random inputs"
+}
