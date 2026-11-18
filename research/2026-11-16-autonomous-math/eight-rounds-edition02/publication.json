@@ -84,7 +84,7 @@
       "sha256": "3055b4ec3e8153729d92e4294f349f7a9192e2ceaa80865b532c48963ce3fcbb",
       "bytes": 572272,
       "pages": 90,
-      "github_binary_uploaded": false
+      "github_binary_uploaded": true
     },
     "verification_ledger": {
       "filename": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger.json",

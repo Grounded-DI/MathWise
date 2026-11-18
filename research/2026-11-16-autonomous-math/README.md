@@ -51,7 +51,7 @@ All three retain **COUNTEREXAMPLE FOUND** classification. Fresh publication runs
 
 [Read the publication entry](eight-rounds-edition02/README.md) · [Machine-readable publication record](eight-rounds-edition02/publication.json).
 
-The separately documented MWPRO-20261116-8H series comprises four candidate reconstructions of classical theorems, three exact counterexamples to experimental conjectures, and one partial investigation. Its eight rounds were manually authorized, not eight unattended scheduler runs. The 90-page book has a recorded SHA-256 digest and a conditional/partial verification ledger. The PDF and full ledger are not yet hosted in this repository; the linked entry does not imply otherwise. This series may overlap subjects listed above, and overlapping results are not counted as additional independent discoveries.
+The separately documented MWPRO-20261116-8H series comprises four candidate reconstructions of classical theorems, three exact counterexamples to experimental conjectures, and one partial investigation. Its eight rounds were manually authorized, not eight unattended scheduler runs. The 90-page book has a recorded SHA-256 digest and a conditional/partial verification ledger. [Download the corrected Edition 02 PDF](eight-rounds-edition02/GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.pdf). The publication record lists the full ledger’s filename and digest. This series may overlap subjects listed above, and overlapping results are not counted as additional independent discoveries.
 
 
 ## Batch 04: Three classical theorem reconstructions

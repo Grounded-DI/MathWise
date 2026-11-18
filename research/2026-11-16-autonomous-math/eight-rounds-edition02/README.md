@@ -52,14 +52,14 @@ This is a **research book**, not a claim to have solved eight previously open pr
 
 ## Publication files and machine-readable record
 
-- **Book:** `GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.pdf` (90 pages).
+- [Download the corrected Edition 02 book (PDF, 90 pages)](GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.pdf).
 - **Verification ledger:** `GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger.json`.
 - **Structured record:** [publication.json](publication.json).
 
 **Book SHA-256:** `3055b4ec3e8153729d92e4294f349f7a9192e2ceaa80865b532c48963ce3fcbb`  
 **Book size:** 572,272 bytes.
 
-> **Artifact availability:** The book and verification-ledger files are referenced by name and digest here. This Markdown entry alone does not establish that those binary/JSON publication files have been uploaded to GitHub. Attach the two edition files to this directory or a release, then replace this note with direct permanent download links.
+> The corrected PDF matches the Edition 02 SHA-256 above. The full verification ledger is referenced by name and digest in the structured record.
 
 ## Classification and scope
 
