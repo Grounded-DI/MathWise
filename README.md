@@ -20,7 +20,7 @@ The [Four-page draft-stage companion, published unchanged](audits/2026-10-03-bar
 
 This repository preserves a public collection of mathematical proposals, formula and specification records, visualizations, replay receipts, and a safety-bounded research planning framework. The September 17, 2026 release adds the RH-001H XT-004G1 certificate package, which records two negative interval enclosures for `V_32(1/5)`, source bindings, an internal SHA-256 manifest, and lightweight verification scripts.
 
-The archive separates three different kinds of material: mathematical or scientific proposals, artifact-recorded execution results, and exploratory or safety-bounded demonstrations. “Deterministic” is used here in the narrow sense of fixed or reproducible processing under stated inputs and rules; it does not mean that a formula is proven, that a model is universally correct, or that a clinical decision is automated.
+The archive collects mathematical and scientific proposals, recorded computations, and exploratory demonstrations. Here, *deterministic* describes fixed or reproducible processing under stated inputs and rules. Each entry identifies what was tested or proved.
 
 No production executable solver or runtime package, dependency manifest, test suite, or CI workflow is included in the current repository. The new certificate package includes Python scripts that check the stored interval conditions and package manifest, plus a bundled predecessor archive; those are review tools and evidence, not a production solver or full rerunnable derivation. The files are therefore suitable for review and controlled evaluation, not direct deployment.
 
