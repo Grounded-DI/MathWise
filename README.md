@@ -22,7 +22,7 @@ This repository preserves a public collection of mathematical proposals, formula
 
 The archive collects mathematical and scientific proposals, recorded computations, and exploratory demonstrations. Here, *deterministic* describes fixed or reproducible processing under stated inputs and rules. Each entry identifies what was tested or proved.
 
-No production executable solver or runtime package, dependency manifest, test suite, or CI workflow is included in the current repository. The new certificate package includes Python scripts that check the stored interval conditions and package manifest, plus a bundled predecessor archive; those are review tools and evidence, not a production solver or full rerunnable derivation. The files are therefore suitable for review and controlled evaluation, not direct deployment.
+The RH-001H certificate package supplies Python scripts for checking the stored interval conditions and file manifest, plus a bundled predecessor archive. These checks make the recorded checkpoint inspectable. They do not rerun the integrals or validate the analytic error bounds.
 
 ## Related records
 
@@ -110,9 +110,9 @@ Recommended order:
 
 ## Evaluation and Integration Context
 
-The archive can support a scoped proof of concept around canonical serialization, replay receipts, hash-based artifact identity, or human-reviewed formula workflows. A technical evaluator can use the public records to define the required inputs, gates, outputs, and evidence package before requesting private implementation access.
+The public records support technical evaluation of canonical serialization, replay receipts, artifact identity, and reviewed formula workflows. An evaluator can inspect the disclosed inputs, checks, outputs, and evidence packages, then request implementation details for an integration review. The preeclampsia planning document requires institutional review and qualified clinical oversight before any clinical use.
 
-Potential integration scenarios are limited to evaluation until production executable components and validation plans are supplied. The preeclampsia material requires institutional review and qualified clinical oversight; it is not a deployable medical product. Commercial licensing and integration inquiries: [Grounded DI GitHub organization](https://github.com/Grounded-DI).
+Commercial licensing and integration inquiries: [Grounded DI GitHub organization](https://github.com/Grounded-DI).
 
 ## Authorship and Provenance
 
@@ -124,7 +124,7 @@ No open-source license is present in the repository. Public availability should 
 
 **Status:** Active public mathematical and demonstration archive. It contains formula proposals, visualizations, a receipt-backed replay record, a safety-bounded research planning document, and the RH-001H XT-004G1 computer-assisted negative-sign checkpoint under its stated arithmetic trust model. It is not a proof of the Riemann Hypothesis, a production solver, a clinical decision system, or an independently validated benchmark package.
 
-The repository’s strongest demonstrated records are the receipt-backed polygon-cascade replay identity and the `V_32(1/5)` negative-sign checkpoint under its stated arithmetic trust model. The mathematical proposals and cross-domain specifications remain open to independent review.
+The receipt-backed polygon-cascade replay and the `V_32(1/5)` negative-sign checkpoint carry the most detailed verification records in this archive.
 
 ## RH-001H XT-004G1 — V32(1/5) negative checkpoint
 
