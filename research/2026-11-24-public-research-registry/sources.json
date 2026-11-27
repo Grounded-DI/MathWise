@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "scope": "Source locators extracted from supplied public PDF; not independently fetched or validated; wrapped URLs may require manual reconstruction.",
+  "entries": [
+    {
+      "id": "MW-CERT-0001",
+      "pdf_page": 5,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: pp. 7–8 | github.com/Grounded-DI/MathWise-Replayable-Fixed-Case-d347-k1-Erdos-124 | github.com/Grounded-DI/MathWise_Subset_Sums_of_Powers_of_3_4_7 | github.com/Grounded-DI/MathWise-D347-Exact-Conductor-Endpoint | Referee_Memo.pdf :: p. 2 prior work"
+    },
+    {
+      "id": "MW-CERT-0002",
+      "pdf_page": 5,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 7 | github.com/Grounded-DI/mathwise_tail_certificate_d345_k1_v1_0_0 | Referee_Memo.pdf :: p. 2 prior-work overlap"
+    },
+    {
+      "id": "MW-CERT-0003",
+      "pdf_page": 6,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 9 | github.com/Grounded-DI/MathWise_Erdos_125_Primal_Anchored_Rotation_Root_Isolation"
+    },
+    {
+      "id": "MW-CERT-0004",
+      "pdf_page": 6,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 9 | github.com/Grounded-DI/MathWise_Erdos_125_Global_Multirow_Coercivity_Certificate | github.com/Grounded-DI/grounded-di-replay-certificate-registry"
+    },
+    {
+      "id": "MW-CERT-0005",
+      "pdf_page": 7,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 10 | github.com/Grounded-DI/grounded-di-replay-certificate-registry/blob/main/06_Erdos_390_Thirteen_Layer_Lower_Bound_Mas ter_Certificate_Intake_Record.txt"
+    },
+    {
+      "id": "MW-CERT-0006",
+      "pdf_page": 7,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 10 | github.com/Grounded-DI/MathWise_BH_Two_Block_Counterexample | github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/bh-two-block-mpfr-audit-extension-2026-10- 08/README.md"
+    },
+    {
+      "id": "MW-CERT-0007",
+      "pdf_page": 8,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 11 | github.com/Grounded-DI/MathWise"
+    },
+    {
+      "id": "MW-CERT-0008",
+      "pdf_page": 8,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 5 | github.com/Grounded-DI/MathWise/blob/main/Partition_Function_Estimate.md"
+    },
+    {
+      "id": "MW-CERT-0009",
+      "pdf_page": 8,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: pp. 5–6 | github.com/Grounded-DI/MathWise/blob/main/Prime_Echo_Lattice_Demo.md | github.com/Grounded-DI/DI-Archive"
+    },
+    {
+      "id": "MW-CERT-0010",
+      "pdf_page": 9,
+      "source_locators_as_extracted": "Book_5_MathWise_Erdos_Mathematical_Record_v1_0.pdf :: p. 6 | github.com/Grounded-DI/MathWise/blob/main/Toroidal_Entropy_Cascade.md"
+    },
+    {
+      "id": "MW-CERT-0011",
+      "pdf_page": 9,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise | github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/m ain/rh-001h-v32-negative-checkpoint/README.md"
+    },
+    {
+      "id": "MW-CERT-0012",
+      "pdf_page": 9,
+      "source_locators_as_extracted": "github.com/Grounded-DI/Grounded-DI-Riemann_Hypothesis_Research_Moving-Endpoint_Obstruction_to_Global_S econd-Tail_Positivity"
+    },
+    {
+      "id": "MW-CERT-0013",
+      "pdf_page": 10,
+      "source_locators_as_extracted": "github.com/Grounded-DI/Grounded-DI-Riemann_Hypothesis_Research_Moving-Endpoint_Obstruction_to_Global_S econd-Tail_Positivity | github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/rh-001h-moving-endp oint-obstruction/README.md"
+    },
+    {
+      "id": "MW-CERT-0014",
+      "pdf_page": 10,
+      "source_locators_as_extracted": "github.com/Grounded-DI/Grounded-DI-Riemann_Hypothesis_Research_Moving-Endpoint_Obstruction_to_Global_S econd-Tail_Positivity | github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/rh-067-beta-delta-int erface/README.md"
+    },
+    {
+      "id": "MW-CERT-0015",
+      "pdf_page": 10,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/rh-001h-xt-003e-public-record/RE ADME.md"
+    },
+    {
+      "id": "MW-CERT-0016",
+      "pdf_page": 11,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/audits/2026-10-03-barei-evolution-algebras/README.md | github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/barei-evolution-algebra-audit/README.md"
+    },
+    {
+      "id": "MW-CERT-0017",
+      "pdf_page": 11,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/audits/2026-10-03-barei-evolution-algebras/minimality/README.md | github.com/Grounded-DI/MathWise/blob/main/audits/2026-10-03-barei-evolution-algebras/README.md"
+    },
+    {
+      "id": "MW-CERT-0018",
+      "pdf_page": 12,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/audits/2026-11-12-nielsen-semita-riemann/README.md | github.com/Grounded-DI/MathWise"
+    },
+    {
+      "id": "MW-CERT-0019",
+      "pdf_page": 12,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 4, Round 01 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 4 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates | github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0020",
+      "pdf_page": 13,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 5, Round 02 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 5 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates | github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0021",
+      "pdf_page": 13,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 6, Round 03 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 6 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates | github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0022",
+      "pdf_page": 14,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 7, Round 04 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 7 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates"
+    },
+    {
+      "id": "MW-CERT-0023",
+      "pdf_page": 14,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 8, Round 05 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 8 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates"
+    },
+    {
+      "id": "MW-CERT-0024",
+      "pdf_page": 15,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 9, Round 06 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 9 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates | MathWise_Round_06_Manuscript.pdf :: Theorems 1–2, pp. 1–3"
+    },
+    {
+      "id": "MW-CERT-0025",
+      "pdf_page": 15,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 10, Round 07 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 10 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates"
+    },
+    {
+      "id": "MW-CERT-0026",
+      "pdf_page": 16,
+      "source_locators_as_extracted": "GroundedDI_MathWise_8of8_FastPathPro_20261116_Book.pdf :: chapter 11, Round 08 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Book.docx :: chapter 11 | GroundedDI_MathWise_8of8_FastPathPro_20261116_Edition02_Verification_Ledger(3).json :: edition custody and gates"
+    },
+    {
+      "id": "MW-CERT-0027",
+      "pdf_page": 16,
+      "source_locators_as_extracted": "MathWise_Erdos124_Manuscript_and_Verification.zip :: mixed-power-conductors.tex, conductors.csv, verify.py | Referee_Memo.pdf :: pp. 1–3 | MathWise_Publication_Preparation.zip :: Manuscript.pdf, cover letter, supplementary verification"
+    },
+    {
+      "id": "MW-CERT-0028",
+      "pdf_page": 17,
+      "source_locators_as_extracted": "MathWise_Erdos124_Manuscript_and_Verification.zip :: mixed-power-conductors.tex, distinct_obstructions.csv | Referee_Memo.pdf :: pp. 1–3 | MathWise_Publication_Preparation.zip :: Manuscript.pdf"
+    },
+    {
+      "id": "MW-CERT-0029",
+      "pdf_page": 17,
+      "source_locators_as_extracted": "MathWise_Erdos124_Manuscript_and_Verification.zip :: mixed-power-conductors.tex, rank-two corollary | Referee_Memo.pdf :: pp. 2–3 | MathWise_Publication_Preparation.zip :: Manuscript.pdf"
+    },
+    {
+      "id": "MW-CERT-0030",
+      "pdf_page": 18,
+      "source_locators_as_extracted": "MathWise_Erdos124_Manuscript_and_Verification.zip :: effective-certificate corollary, separation lemma | Referee_Memo.pdf :: pp. 2–3 | MathWise_Publication_Preparation.zip :: revised manuscript"
+    },
+    {
+      "id": "MW-CERT-0031",
+      "pdf_page": 18,
+      "source_locators_as_extracted": "MathWise_DSJC2505_Cycle3_2026-11-16.zip :: exact_core_16/README.md, core16.col, proof trace; CYCLE3_REPORT.md"
+    },
+    {
+      "id": "MW-CERT-0032",
+      "pdf_page": 19,
+      "source_locators_as_extracted": "MathWise_Autonomous_Cycle8.zip :: RUN_STATE.json, DSJC250.5.col.b, best_28_1.txt, best_27_3.txt"
+    },
+    {
+      "id": "MW-CERT-0033",
+      "pdf_page": 19,
+      "source_locators_as_extracted": "MathWise_Autonomous_Cycle8.zip :: alternatives/DSJC250_1/README.md; core_cycle5, reinsert_cycle6, autonomous_cycle7, elite_cycle8"
+    },
+    {
+      "id": "MW-CERT-0034",
+      "pdf_page": 20,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0035",
+      "pdf_page": 20,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0036",
+      "pdf_page": 20,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0037",
+      "pdf_page": 21,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0038",
+      "pdf_page": 21,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0039",
+      "pdf_page": 21,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0040",
+      "pdf_page": 22,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0041",
+      "pdf_page": 22,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0042",
+      "pdf_page": 22,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0043",
+      "pdf_page": 23,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0044",
+      "pdf_page": 23,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0045",
+      "pdf_page": 23,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0046",
+      "pdf_page": 24,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0047",
+      "pdf_page": 24,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0048",
+      "pdf_page": 24,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise/blob/main/research/2026-11-16-autonomous-math/README.md"
+    },
+    {
+      "id": "MW-CERT-0049",
+      "pdf_page": 25,
+      "source_locators_as_extracted": "github.com/Grounded-DI/MathWise-Deterministic-Replay-Certificates/blob/main/rh-record-status/README.md | github.com/Grounded-DI/MathWise"
+    }
+  ]
+}

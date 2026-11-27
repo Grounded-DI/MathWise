@@ -4,6 +4,10 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 **Published by:** Grounded DI LLC · **Creator / operator:** Mark S. Weinstein · **Public repository established:** July 29, 2025
 
+## Book 5 companion — Mathematical Research and Verification Registry
+
+**Research cutoff: November 24, 2026.** [Public registry and machine-readable records](research/2026-11-24-public-research-registry/README.md) — 49 master entries, including 31 mathematical result families (including candidates), 10 investigations, 3 audits, 4 historical exhibits and 1 reproducibility demonstration. Partial source coverage; no new mathematical verification or claim of open-conjecture resolution. The initial release includes the full extracted text and structured registry; original PDF binary publication is pending.
+
 ## Latest audit — Nielsen–Semita Lean RH submission
 
 **Published 12 November 2026:** [Lean countercheck and audit](audits/2026-11-12-nielsen-semita-riemann/README.md). Lean 4.16.0 accepted a derivation of `False` from assumptions in the pinned Version 2 submission, after the original modules were compiled individually. The original `lake build` failed; the audit preserves that result and links to the full workflow log. This is a finding about the submitted formalization, not a proof or disproof of the Riemann hypothesis.

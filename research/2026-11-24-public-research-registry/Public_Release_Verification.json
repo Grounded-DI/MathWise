@@ -1,0 +1,16 @@
+{
+  "disposition": "PUBLICATION_PARTIAL",
+  "source_pdf_sha256_local": "7abbf87a3b1f14742e59dbf6c751dc23b12b9ef33c2795d4f48cf453117cd27b",
+  "source_pdf_bytes": 132145,
+  "pdf_pages_extracted": 31,
+  "structured_master_entries": 49,
+  "pdf_binary_uploaded": false,
+  "mathematical_verifiers_rerun": false,
+  "external_source_links_checked": false,
+  "original_companion_archives_published": false,
+  "limitations": [
+    "Direct Git transport could not resolve github.com; connector cannot ingest local binary bytes.",
+    "Original PDF unmodified; page 29 graphical remnants remain in the local source.",
+    "Text and structured data derived from the supplied public PDF, not original companion files."
+  ]
+}
