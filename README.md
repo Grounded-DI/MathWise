@@ -6,7 +6,9 @@ MathWise is a Grounded DI mathematical archive for formula proposals, replay rec
 
 ## Book 5 companion — Mathematical Research and Verification Registry
 
-**Research cutoff: November 24, 2026.** [Public registry and machine-readable records](research/2026-11-24-public-research-registry/README.md) — 49 master entries, including 31 mathematical result families (including candidates), 10 investigations, 3 audits, 4 historical exhibits and 1 reproducibility demonstration. Partial source coverage; no new mathematical verification or claim of open-conjecture resolution. The initial release includes the full extracted text and structured registry; original PDF binary publication is pending.
+**Research cutoff: November 24, 2026.** [Public registry and machine-readable records](research/2026-11-24-public-research-registry/README.md) — 49 master entries, including 31 mathematical result families (including candidates), 10 investigations, 3 audits, 4 historical exhibits and 1 reproducibility demonstration. Partial source coverage; no new mathematical verification or claim of open-conjecture resolution. The initial registry publication includes the full extracted text and structured registry. The public registry PDF is included in the evidence companion below.
+
+**Book 5 public research and evidence companion, November 24, 2026.** The companion includes the public registry PDF, 49 indexed research entries, 380 conductor-table records, 56 distinct-power deficit witnesses, and 45 supporting-evidence references. It preserves the stated scope of each result and includes a standalone SHA-256 package checker. [Release and download](https://github.com/Grounded-DI/MathWise/releases/tag/mathwise-book5-evidence-2026-11-24)
 
 ## Latest audit — Nielsen–Semita Lean RH submission
 
